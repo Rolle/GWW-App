@@ -1,0 +1,569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"resu",
+				"result_swift"
+			],
+			[
+				"result_aar",
+				"result_array_last"
+			],
+			[
+				"running",
+				"running_replications_pw"
+			],
+			[
+				"dail",
+				"daily_processed"
+			],
+			[
+				"resul",
+				"result_buy"
+			],
+			[
+				"pa",
+				"pain001"
+			],
+			[
+				"cam",
+				"camt054_status"
+			],
+			[
+				"ca",
+				"camt054_status"
+			],
+			[
+				"pain",
+				"pain008_status"
+			],
+			[
+				"camt",
+				"camt_054_status"
+			],
+			[
+				"result",
+				"result_camt_054"
+			],
+			[
+				"status",
+				"statuschecker_prd"
+			],
+			[
+				"check",
+				"checkers_sit"
+			],
+			[
+				"checke",
+				"checkers_uat"
+			],
+			[
+				"chec",
+				"checkers"
+			],
+			[
+				"luxitwebd830",
+				"luxitwebd8302"
+			],
+			[
+				"luxita",
+				"luxitappd8209"
+			],
+			[
+				"luxitappd",
+				"luxitappd8206"
+			],
+			[
+				"rsult",
+				"result_sums"
+			],
+			[
+				"result_last",
+				"result_last_6"
+			],
+			[
+				"reus",
+				"result_last_6"
+			],
+			[
+				"iks",
+				"iks_lux1"
+			],
+			[
+				"ik",
+				"iks_lux1"
+			],
+			[
+				"result_last_",
+				"result_last_6_backend"
+			],
+			[
+				"ad",
+				"ad_groups"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 3380,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projects/phonegap/GWW",
+		"/C/Projects/phonegap/GWW/platforms/android",
+		"/C/Projects/phonegap/GWW/www",
+		"/C/Projects/phonegap/GWW/www/css",
+		"/C/Projects/phonegap/GWW/www/img",
+		"/C/Projects/phonegap/GWW/www/js"
+	],
+	"file_history":
+	[
+		"/C/Projects/phonegap/GWW/GWW/www/index.html",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/environments/production.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/Gemfile",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/contact_mailer.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/registration_mailer.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/streckenlängen.txt",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/impressum.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/.gitignore",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts/application.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models/contact.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer/new_contact_mail.text.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer/new_contact_mail.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/devise/sessions/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/routes.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/danke_kontakt.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/_form.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/destroy.js.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/destroy.js.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_destroy.js.erb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/config/routes.rb",
+		"/home/roland/projects/rails-schnitzeljagd/config/environments/development.rb",
+		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141115194634_create_registrations.rb",
+		"/home/roland/projects/rails-schnitzeljagd/app/models/registration.rb",
+		"/home/roland/projects/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
+		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141116124811_add_paid_to_registrations.rb",
+		"/home/roland/projects/rails-schnitzeljagd/config/application.rb",
+		"/home/roland/projects/rails-schnitzeljagd/config/database.yml",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/secrets.yml",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/helpers/application_helper.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models/registration.rb",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/my.css",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/docs.min.css",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
+		"/home/roland/projects/schnitzeljagd/source/layouts/layout.erb",
+		"/home/roland/projects/schnitzeljagd/source/anmeldung.html.erb",
+		"/home/roland/projects/schnitzeljagd/source/ablauf.html.erb",
+		"/home/roland/projects/schnitzeljagd/source/strecke.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/ablauf.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/strecke.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/index.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/layouts/layout.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/anmeldung.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/stylesheets/my.css",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/DWS.B2B.IAM.Transfer.NOM.Binding.PROD.xml",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/01_IAM2000_DBB2B_ALTER_PCAMT_ST_PollGetData.sql",
+		"/T/Schmitt/Migration_3-24_SEPA/03_IAM2000_DBB2B_CREATE_TCAMT_054_IBANGroup.sql",
+		"/T/Schmitt/Migration_3-24_SEPA/04_IAM2000_DBB2B_INSERT_TCAMT_054_IBANGroup.sql",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/01_IAM2000_DBB2B_ALTER_PCAMT_ST_Poll.sql",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/Msg/setr.012.001.03.xml",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/Msg/setr.006.001.03.xml",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.39448.000",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.39446.000",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.20601.000",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.20603.000",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/testliste5.txt",
+		"/C/Projects/ruby/BigBrother/app/helpers/user_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_failed_swift_orders.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_running_replications.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_avg_call_duration_pw.erb",
+		"/C/Projects/ruby/BigBrother/app/models/order.rb",
+		"/C/Projects/ruby/BigBrother/Gemfile",
+		"/C/Projects/ruby/BigBrother/app/helpers/statistic_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/helpers/dashboard_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/assets/javascripts/application.js",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_coop_rejected.html.erb",
+		"/C/Projects/ruby/BigBrother/config/application.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_running_replications.js.erb",
+		"/C/Projects/ruby/BigBrother/app/models/dashboard.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/dashboards_controller.rb",
+		"/C/Projects/ruby/BigBrother/log/development.log",
+		"/C/Projects/ruby/BigBrother/config/database.yml",
+		"/C/Users/schmrol/AppData/Roaming/Sublime Text 3/Packages/RuboCop/Default (Windows).sublime-keymap",
+		"/C/Projects/ruby/BigBrother/app/helpers/docimport_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/views/docimport/todays_statistic.html.erb",
+		"/C/Projects/ruby/BigBrother/app/models/docimport.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/docimport_controller.rb",
+		"/C/Projects/ruby/BigBrother/app/views/docimport/todays_statistic_params.html.erb",
+		"/C/Projects/ruby/BigBrother/app/helpers/application_helper.rb",
+		"/C/Projects/ruby/BigBrother/config/routes.rb",
+		"/C/Projects/ruby/BigBrother/app/models/statistic.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/statistic_controller.rb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/ddo_transactions.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sessions_last_6.html.erb",
+		"/C/Projects/ruby/BigBrother/app/helpers/status_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_batch_jobs.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_ddo_trans.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_trans_ddo.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sepa.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_order_confirmations.html.erb",
+		"/C/Projects/ruby/BigBrother/app/models/status.rb",
+		"/C/Projects/ruby/BigBrother/app/models/tracking.rb",
+		"/C/Projects/ruby/BigBrother/app/models/mt535.rb",
+		"/C/Projects/ruby/BigBrother/app/models/message.rb",
+		"/C/Projects/ruby/BigBrother/app/models/holding.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/index.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sepa.js.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refres_sepa.js.erb",
+		"/C/Projects/ruby/BigBrother/app/views/status/loadbalancer.html.erb",
+		"/C/Projects/ruby/BigBrother/app/controllers/status_controller.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views",
+			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app",
+			"C:\\Projects\\ruby\\BigBrother\\app\\",
+			"C:\\Projects\\ruby\\BigBrother\\app\\models",
+			"C:\\Projects\\ruby\\BigBrother\\app\\",
+			"C:\\Projects\\ruby\\BigBrother\\app\\views",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hover",
+			"#668c3f",
+			"18778c",
+			"#09516d",
+			"#0b688c",
+			"#668C3F",
+			"losu",
+			"urkund",
+			"10:00",
+			"HM",
+			"höhenm",
+			"wer gewinn",
+			"www.bergwerk",
+			"Bergwerk",
+			"km",
+			"icon_top",
+			"icon_tap",
+			"assets",
+			"glyphicons",
+			"asset_path",
+			"Halflings",
+			"glyph",
+			"/images",
+			"/image",
+			"OnUnload",
+			"order",
+			"+++",
+			"repli",
+			"iam2000_pw_10_deve",
+			"iam2000_pw_10",
+			"iam2000_pw_11",
+			"IAM2000_PW_24",
+			"iam2000_db_pw",
+			"][\"",
+			"running_replications_pw",
+			"FOUNDXXXX",
+			"replications",
+			"replicat",
+			"error",
+			"series:",
+			"statistic_paramspw",
+			"AVG_CALL_DURATION_BACKEND_PW",
+			"].",
+			"://luxshdbdws19005:1356;databaseName=IAM2000_DBPartner",
+			"IAM2000_DBPin_",
+			"_PW_",
+			"_PW_92",
+			"://luxshdbdws29005:1470;databaseName=IAM2000_DBPartner_08",
+			"://luxshdbdws29005:1470;databaseName=IAM2000_DBPartner_09",
+			"://luxshdbdws29005:1470;databaseName=IAM2000_DBPartner_03",
+			"://luxshdbdws19005:1356;databaseName=IAM2000_DBPartner_10",
+			"://luxshdbdws19005:1356;databaseName=IAM2000_DBPartner_01",
+			"strftime",
+			"class",
+			"strftime",
+			"#96A61F",
+			"96a61f",
+			"prepare_sessions_last_6",
+			"prepare_avg_call_duration_pw",
+			"_development",
+			"pool: 1000",
+			"com.microsoft.sqlserver.jdbc.SQLServerDriver",
+			";integratedSecurity=true;",
+			";databaseName=",
+			"jdbc:sqlserver://",
+			"[IAM2000_DBLog]",
+			"refresh_batchjob",
+			"_development",
+			"isis",
+			"<div class=\"control-group\">",
+			"'icon-refresh",
+			"icon-refresh",
+			"gly",
+			"span4",
+			"btn",
+			"container-fluid",
+			"row-fluid",
+			"row",
+			"span10\"",
+			"span2\"",
+			"span8\"",
+			"span6\"",
+			"span",
+			"glyph",
+			"gly",
+			"glyph",
+			"webserver",
+			"org.torquebox.web",
+			"link_to"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"003D7C",
+			"#003D7C",
+			"#AFCA0B",
+			"asset-url",
+			"://luxpsqll27\\iks_biz;databaseName=IAM2000_DBPartner",
+			"://luxpsqll26\\iks_vita;databaseName=IAM2000_DBPartner_08",
+			"://luxpsqlg14\\iks_ger;databaseName=IAM2000_DBPartner_09",
+			"://luxpsqll24\\iks_lux1;databaseName=IAM2000_DBPartner_03",
+			"://luxpsqll25\\iks_lux2;databaseName=IAM2000_DBPartner_10",
+			"://luxpsqlg14\\iks_ger;databaseName=IAM2000_DBPartner_01",
+			"_production",
+			"pool: 50",
+			"net.sourceforge.jtds.jdbc.Driver",
+			"",
+			"/",
+			"jdbc:jtds:sqlserver://",
+			"_production",
+			"<div class=\"form-group\">",
+			"'glyphicon glyphicon-refresh",
+			"col-md-4",
+			"btn btn-default",
+			"row",
+			"col-md-10\"",
+			"col-md-2\"",
+			"col-md-8\"",
+			"col-md-6\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2440,
+								2440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 682.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 264.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "GWW.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Projects\\ruby\\Ergo\\Ergo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
