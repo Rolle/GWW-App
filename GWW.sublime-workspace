@@ -115,8 +115,24 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 3380,
-				"line_ending": "Unix"
+				"buffer_size": 4097,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/betonsteinwerk.html",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/schuerzig.html",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -152,11 +168,7 @@
 	"expanded_folders":
 	[
 		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/platforms/android",
-		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/css",
-		"/C/Projects/phonegap/GWW/www/img",
-		"/C/Projects/phonegap/GWW/www/js"
+		"/C/Projects/phonegap/GWW/www"
 	],
 	"file_history":
 	[
@@ -453,15 +465,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3380,
+						"buffer_size": 4097,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2440,
-								2440
+								2900,
+								2900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 514.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/betonsteinwerk.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								807
 							]
 						],
 						"settings":
@@ -471,10 +513,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 682.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/schuerzig.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
