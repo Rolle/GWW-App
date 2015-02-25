@@ -115,23 +115,31 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 4097,
+				"buffer_size": 3674,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/betonsteinwerk.html",
+			"file": "www/html/gww/index.html",
 			"settings":
 			{
-				"buffer_size": 807,
+				"buffer_size": 1414,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/schuerzig.html",
+			"file": "www/html/bw/index.html",
 			"settings":
 			{
-				"buffer_size": 807,
+				"buffer_size": 742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/sww/index.html",
+			"settings":
+			{
+				"buffer_size": 846,
 				"line_ending": "Windows"
 			}
 		}
@@ -168,10 +176,15 @@
 	"expanded_folders":
 	[
 		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/www"
+		"/C/Projects/phonegap/GWW/www",
+		"/C/Projects/phonegap/GWW/www/html",
+		"/C/Projects/phonegap/GWW/www/html/bw",
+		"/C/Projects/phonegap/GWW/www/html/gww",
+		"/C/Projects/phonegap/GWW/www/html/sww"
 	],
 	"file_history":
 	[
+		"/C/Projects/phonegap/GWW/www/schuerzig.html",
 		"/C/Projects/phonegap/GWW/GWW/www/index.html",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
@@ -298,8 +311,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/index.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sepa.js.erb",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refres_sepa.js.erb",
-		"/C/Projects/ruby/BigBrother/app/views/status/loadbalancer.html.erb",
-		"/C/Projects/ruby/BigBrother/app/controllers/status_controller.rb"
+		"/C/Projects/ruby/BigBrother/app/views/status/loadbalancer.html.erb"
 	],
 	"find":
 	{
@@ -465,15 +477,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4097,
+						"buffer_size": 3674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2900,
-								2900
+								1900,
+								1900
 							]
 						],
 						"settings":
@@ -483,7 +495,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 514.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -491,55 +503,55 @@
 				},
 				{
 					"buffer": 1,
-					"file": "www/betonsteinwerk.html",
-					"semi_transient": true,
+					"file": "www/html/gww/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 807,
+						"buffer_size": 1414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								807
+								86,
+								119
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "www/schuerzig.html",
+					"file": "www/html/bw/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 807,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								119,
+								119
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -547,6 +559,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/html/sww/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -633,7 +675,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 307.0,
+	"side_bar_width": 189.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
