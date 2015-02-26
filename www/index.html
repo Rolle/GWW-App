@@ -30,6 +30,14 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
         <link rel="stylesheet" type="text/css" href="css/themes/BW_Theme.css" />
         <link rel="stylesheet" type="text/css" href="css/themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/swipebox.min.css" />
+        
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+        
 
         <title>Besucherbergwerk Fell</title>
     </head>
@@ -46,7 +54,7 @@
                 </form>
                 <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
                   <li><a data-transition="slide" href="html/bw/bw.html">Besucherbergwerk</a></li>
-                  <li><a data-transition="slide" href="html/kalender.html">Kalender</a></li>
+                  <li><a data-transition="slide" href="html/veranstaltungen.html">Veranstaltungen</a></li>
                   <li><a data-transition="slide" href="html/gww/gww.html">Grubenwanderweg</a></li>
                   <li><a data-transition="slide" href="html/sww/sww.html">Schiefer-Wacken-Weg</a></li>
                </ul>
@@ -57,26 +65,8 @@
             </div-->
         </div>
 
-        <div data-role="page" id="eichbaum">
-            <div data-role="header">
-                <h1>Grubenwanderweg: Eichbaum</h1>
-            </div>
 
-            <div role="main" class="ui-content">
-                Hier ein Bild von 1950:
-                <img src="img/schuerzig.jpg"/>
-            </div>
-
-            <div data-role="footer">
-                <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
-            </div>
-        </div>
-
-        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-
+        
         <script type="text/javascript">
             app.initialize();
         </script>

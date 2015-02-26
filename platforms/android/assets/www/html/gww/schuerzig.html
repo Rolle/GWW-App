@@ -1,4 +1,4 @@
-<div data-role="page" id="schuerzig">
+<div data-role="page" id="gww_schuerzig">
     <div data-role="header" data-add-back-btn="true">
         <h1>Grubenwanderweg: Grube Sch&uuml;rzig</h1>
     </div>
@@ -12,13 +12,24 @@
             </div>
             
             <div data-role="collapsible">
-                <h3>Spalth&uuml;tte</h3>
-                <p><img src="img/schuerzig.jpg" style="width: 100%;"/></p>
+                <h3>Bilder</h3>
+                <a href="../../img/schuerzig.jpg" class="swipebox" caption="Spalth&uuml;tte">
+                    <img src="../../img/schuerzig_thumb.jpg" alt="Spalth&uuml;tte">
+                </a>
+                <a href="../../img/scheuer.jpg" class="swipebox" caption="Spalth&uuml;tte">
+                    <img src="../../img/scheuer_thumb.jpg" alt="Spalth&uuml;tte">
+                </a>
             </div>
             
         </div>
     </div>
 
+    <script>
+        $(document).on("pagecreate",function(){
+            //alert("pagecreate event fired!")
+            $('.swipebox').swipebox();
+        });
+    </script>
     <!--div data-role="footer">
         <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
     </div-->
