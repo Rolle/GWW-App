@@ -1,36 +1,61 @@
-<div data-role="page" id="bww_oeffnungszeiten">
+<div data-role="page" id="sww_einkehr">
     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
-        <h1>Besucherbergwerk: &Ouml;ffnungszeiten</h1>
+        <h1>Besucherbergwerk</h1>
     </div>
 
     <div role="main" class="ui-content">
-        <div data-role="collapsible-set">
+        <h3 class="ui-bar ui-bar-a ui-corner-all">&Ouml;ffnungszeiten / Preise</h3>
+        <div class="ui-body ui-body-a ui-corner-all">
 
+        <div data-role="collapsible-set">
+            
             <div data-role="collapsible" data-collapsed="false">
-                <h3>Geschichte</h3>
-                <p>Die Grube ...</p>
+                <h3>&Ouml;ffnungszeiten</h3>
+                <h5>1. April bis 01. November</h5>
+                Dienstag - Sonntag und alle Feiertage geöffnet von 10 Uhr bis 18 Uhr (letzter Einlass: 17 Uhr).<br />
+                Reguläre Führungen finden täglich ohne Anmeldung im Abstand von ca. 1 Stunde statt (keine festen Uhrzeiten).<br />
+                Das Besucherbergwerk Fell ist in den Monaten November bis März geschlossen (Winterpause).<br />
+                <h5>Anmeldung zur Führung</h5>
+                <p>Einzelpersonen und Familien müssen sich während der Öffungszeiten des Besucherbergwerks nicht anmelden. Bei größeren Gruppen bitten wir um vorherige Anmeldung (Tel. 06502-988588 bzw. 06502-994019; <a href="mailto: info@bergwerk-fell.de">e-mail: <u>info@bergwerk-fell.de</u></a>). Für Gruppen sind Führungen auch außerhalb der Öffnungszeiten möglich.</p>
+                <h5>Ablauf der Führung</h5>
+                <p>Die Führung erfolgt unter Tage und dauert eine gute Stunde, da es in der Grube feucht und kühl ist (12-13 Grad Celsius), bitte geeignete Schuhe und eine Jacke mitbringen. Helme werden vor Ort gestellt.<br />
+                    Bitte beachten Sie, dass es innerhalb der Gruben zwei engere Treppen gibt, im Treppenschacht führen 163 gut begehbare Stufen abwärts (Deckenhöhe 1,80m). Untertage ist durchgehend eine Beleuchtung vorhanden.<br />
+                    Hunde können an der Führung teilnehmen, sofern sie nicht ängstlich sind und an der Leine geführt werden.</p>
             </div>
-            
             <div data-role="collapsible">
-                <h3>Bilder</h3>
-                <a href="img/schuerzig.jpg" class="swipebox" caption="Spalth&uuml;tte">
-                    <img src="img/schuerzig_thumb.jpg" alt="Spalth&uuml;tte">
-                </a>
-                <a href="img/scheuer.jpg" class="swipebox" caption="Spalth&uuml;tte">
-                    <img src="img/scheuer_thumb.jpg" alt="Spalth&uuml;tte">
-                </a>
-            </div>
-            
+                <h3>Preise</h3>
+                <h5>Einzelbesucher</h5>
+                <p>Kinder unter 6 Jahren in Begleitung der Eltern frei</p>
+                <p>Kinder/Jugendliche (Alter 6 bis 17 Jahre) 4€</p>
+                <p>Erwachsene (ab 18 Jahre) 6,50€</p>
+                <h5>Gruppe (mit Voranmeldung) ab 15 zahlenden Personen</h5>
+                <p>Kinder unter 6 Jahren in Begleitung der Eltern: frei</p>
+                <p>Kinder/Jugendliche (Alter 6 bis 17 Jahre) 3,80 €</p>
+                <p>Erwachsene (ab 18 Jahre) 6,00 €</p>
+                <h5>Gruppe (nur auf Voranmeldung) ab 30 zahlenden Personen</h5>
+                <p>Kinder unter 6 Jahren in Begleitung der Eltern: frei</p>
+                <p>Kinder/Jugendliche (Alter 6 bis 17 Jahre) 3,50 €</p>
+                <p>Erwachsene (ab 18 Jahre) 5,50 €</p>
+                <h5>Schulklassen / VDK-Mitglieder / Besucher mit RWE-Card</h5>
+                <p>erhalten einen Preisnachlass von 10%</p>
+                <h5><a href="http://www.s4young.de/" target="_blank"><u>s4young</u></a> Mitglieder</h5>
+                <ul>
+                    <li>2 für eins (die erste Person bezahlt den vollen Eintrittspreis und die zweite Person hat freien Eintritt</li>
+                    <li>Wir verlosen viermal jährlich je 20 Eintrittskarten unter allen Clubmitgliedern</li>
+                </ul>                
+            </div>            
         </div>
+
+        <script>
+            $(document).on("pagecreate",function(){
+                //alert("pagecreate event fired!")
+                $('.swipebox').swipebox();
+            });
+        </script>
     </div>
 
-    <script>
-        $(document).on("pagecreate",function(){
-            //alert("pagecreate event fired!")
-            $('.swipebox').swipebox();
-        });
-    </script>
+
     <!--div data-role="footer">
-        <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
+        <h4>Page Footer</h4>
     </div-->
 </div>
