@@ -119,14 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 4317,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -161,19 +153,17 @@
 	[
 		"/C/Projects/phonegap/GWW",
 		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/css/themes/images",
 		"/C/Projects/phonegap/GWW/www/html",
-		"/C/Projects/phonegap/GWW/www/html/gww",
-		"/C/Projects/phonegap/GWW/www/res/icon/android"
+		"/C/Projects/phonegap/GWW/www/html/gww"
 	],
 	"file_history":
 	[
+		"/C/Projects/phonegap/GWW/www/index.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/js/jquery.swipebox.min.js",
 		"/C/Projects/phonegap/GWW/www/js/jquery.touch-gallery-1.0.0.min.js",
 		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
-		"/C/Projects/phonegap/GWW/www/index.html",
 		"/C/Projects/phonegap/GWW/www/html/kalender.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bw.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/gww.html",
@@ -453,39 +443,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4317,
-								4317
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 754.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
