@@ -12,6 +12,7 @@
           <li><a data-transition="slide" href="betonsteinwerk.html">Parkplatz Betonsteinwerk</a></li>
 		      <li><a data-transition="slide" href="margarethen.html">Margarethen-Stollen</a></li>
 		      <li><a data-transition="slide" href="aufseherhaus.html">Aufseherhaus</a></li>
+          <li><a data-transition="slide" href="stromverteiler.html">Stromverteiler</a></li>
           <li><a data-transition="slide" href="josef.html">Grube St. Josef</a></li>
           <li><a data-transition="slide" href="kobenbach.html">Grube Kobenbach</a></li>
           <li><a data-transition="slide" href="hofgrube.html">Hofgrube</a></li>
@@ -26,9 +27,34 @@
           <li><a data-transition="slide" href="margarethen.html">Margarethen-Brunnen</a></li>
 		      <li><a data-transition="slide" href="untere_schuerzig.html">Untere Sch&uuml;rzig</a></li>
 		  
-       </ul>
+        </ul>
+        <label for="loesung" style="text-align: center">L&ouml;sungswort:</label>
+        <input id="loesungswort" disabled="disabled" name="loesungswort" type="text" value="" placeholder="L&ouml;sungswort">                   
     </div>
+    <script>
+        $(document).on("pagecreate",function(e){
+            e.preventDefault();
+            
+            stromverteiler = $.cookie("stromverteiler"); //1
+            josef = $.cookie("josef"); //2
+            kobenbach = $.cookie("kobenbach"); //3
+            hofgrube = $.cookie("hofgrube");  //4
+            vogelsberg = $.cookie("vogelsberg");//5
+            vogelsberg2 = $.cookie("vogelsberg2");//6
+            vogelsberg1 = $.cookie("vogelsberg1");//7
+            hoffnung = $.cookie("hoffnung");//8
+            barbara = $.cookie("barbara");//9
+            walli = $.cookie("walli");//10
+            eichbaum = $.cookie("eichbaum"); //11
+            schuerzig = $.cookie("schuerzig"); //12
 
+            //1 2 7 5 4 3 8 6 10 11 9 12
+            loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;
+
+            
+            $('#loesungswort')[0].value = loesung;
+        });        
+    </script>
     <!--div data-role="footer">
         <h4>Page Footer</h4>
     </div-->

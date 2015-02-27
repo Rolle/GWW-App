@@ -1,10 +1,15 @@
 <div data-role="page" id="gww_schuerzig">
     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
-        <h1>Grubenwanderweg: Grube Sch&uuml;rzig</h1>
+        <h1>Grubenwanderweg</h1>
     </div>
 
     <div role="main" class="ui-content">
+        <h3 class="ui-bar ui-bar-a ui-corner-all">Grube Sch&uuml;rzig</h3>    
         <div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Infotafel</h3>
+                <p>Die Grube ...</p>
+            </div>
 
             <div data-role="collapsible" data-collapsed="false">
                 <h3>Geschichte</h3>
@@ -13,14 +18,23 @@
             
             <div data-role="collapsible">
                 <h3>Bilder</h3>
-                <a href="../../img/schuerzig.jpg" class="swipebox" caption="Spalth&uuml;tte">
-                    <img src="../../img/schuerzig_thumb.jpg" alt="Spalth&uuml;tte">
+                <a href="img/schuerzig.jpg" class="swipebox" caption="Spalth&uuml;tte">
+                    <img src="img/schuerzig_thumb.jpg" alt="Spalth&uuml;tte">
                 </a>
-                <a href="../../img/scheuer.jpg" class="swipebox" caption="Spalth&uuml;tte">
-                    <img src="../../img/scheuer_thumb.jpg" alt="Spalth&uuml;tte">
+                <a href="img/scheuer.jpg" class="swipebox" caption="Spalth&uuml;tte">
+                    <img src="img/scheuer_thumb.jpg" alt="Spalth&uuml;tte">
                 </a>
             </div>
             
+            <div data-role="collapsible">
+                <h3>GWW-Rallye</h3>
+                <form id="save" action="" method="">
+                    <p>Wie nennt man Abbaukammern in der Bergmannssprache noch? Der</p>
+                    <input id="schuerzig" name="schuerzig" type="text" value="" placeholder="alte Abbaukammer">                        
+                
+                    <button class="ui-btn ui-icon-check ui-btn-icon-left ui-corner-all" type="submit">Speichern</button>
+                </form>
+            </div>              
         </div>
     </div>
 
@@ -29,6 +43,11 @@
             //alert("pagecreate event fired!")
             $('.swipebox').swipebox();
         });
+        $('#save').on('submit',function(e){
+            e.preventDefault();
+            v = $('#schuerzig')[0].value;
+            $.cookie("schuerzig", v, { expires: 7 });
+        });         
     </script>
     <!--div data-role="footer">
         <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>

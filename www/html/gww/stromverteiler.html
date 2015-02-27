@@ -1,0 +1,55 @@
+<div data-role="page" id="gww_stromverteiler">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
+        <h1>Grubenwanderweg</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+        <h3 class="ui-bar ui-bar-a ui-corner-all">Stomverteilertrum</h3>    
+        <div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Infotafel</h3>
+                <p>Die Grube ...</p>
+            </div>
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Geschichte</h3>
+                <p>Die Grube ...</p>
+            </div>
+            
+            <div data-role="collapsible">
+                <h3>GWW-Rallye</h3>
+                <form id="save" action="" method="">
+                    <fieldset data-role="controlgroup">
+                        <legend>Aus wievielen Scheiben bestehen die 3 Fenster des Turmes zusammen?</legend>
+
+                        <input type="radio" name="stromverteiler" id="stromverteiler-36" value="A">
+                        <label for="stromverteiler-36">36 - Lösung: A</label>
+
+                        <input type="radio" name="stromverteiler" id="stromverteiler-54" value="B">
+                        <label for="stromverteiler-54">54 - Lösung: B</label>
+
+                        <input type="radio" name="stromverteiler" id="stromverteiler-72" value="C">
+                        <label for="stromverteiler-72">72 - Lösung: C</label>
+                    </fieldset>
+
+                    <button class="ui-btn ui-icon-check ui-btn-icon-left ui-corner-all" type="submit">Speichern</button>
+                </form>
+            </div>            
+        </div>
+    </div>
+
+    <script>
+        $(document).on("pagecreate",function(){
+            //alert("pagecreate event fired!")
+            $('.swipebox').swipebox();
+        });
+        $('#save').on('submit',function(e){
+            e.preventDefault();
+            v = $("input[type='radio'][name='stromverteiler']:checked").val();
+            $.cookie("stromverteiler", v, { expires: 7 });
+        });        
+    </script>
+    <!--div data-role="footer">
+        <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
+    </div-->
+</div>
