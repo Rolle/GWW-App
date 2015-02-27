@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"vol",
+				"vogelsberg"
+			],
+			[
 				"vo",
 				"vogelsberg2"
 			],
 			[
 				"vog",
 				"vogelsberg"
-			],
-			[
-				"vol",
-				"vogelsberg1"
 			],
 			[
 				"volg",
@@ -143,6 +143,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "www/html/gww/hoffnung.html",
+			"settings":
+			{
+				"buffer_size": 2385,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/gww.html",
+			"settings":
+			{
+				"buffer_size": 5212,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 4413,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -334,6 +358,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"undefined",
 			".toUpperCase()",
 			"$.cookie(",
 			" </",
@@ -434,6 +459,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"null",
 			"",
 			"window.localStorage.key(",
 			"003D7C",
@@ -472,8 +498,99 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/html/gww/hoffnung.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/html/gww/gww.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5063,
+								5063
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 984.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -519,7 +636,7 @@
 	"project": "GWW.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

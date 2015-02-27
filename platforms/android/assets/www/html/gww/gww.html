@@ -50,26 +50,50 @@
             schuerzig = $.cookie("schuerzig").toUpperCase(); //12
             */
 
-            stromverteiler = window.localStorage.getItem("stromverteiler").toUpperCase(); //1
-            josef = window.localStorage.getItem("josef").toUpperCase(); //2
-            kobenbach = window.localStorage.getItem("kobenbach").toUpperCase(); //3
-            hofgrube = window.localStorage.getItem("hofgrube").toUpperCase();  //4
-            vogelsberg = window.localStorage.getItem("vogelsberg").toUpperCase();//5
-            vogelsberg2 = window.localStorage.getItem("vogelsberg2").toUpperCase();//6
-            vogelsberg1 = window.localStorage.getItem("vogelsberg1").toUpperCase();//7
-            hoffnung = window.localStorage.getItem("hoffnung").toUpperCase();//8
-            barbara = window.localStorage.getItem("barbara").toUpperCase();//9
-            walli = window.localStorage.getItem("walli").toUpperCase();//10
-            eichbaum = window.localStorage.getItem("eichbaum").toUpperCase(); //11
-            schuerzig = window.localStorage.getItem("schuerzig").toUpperCase(); //12
+            stromverteiler = window.sessionStorage.getItem("stromverteiler"); //1
+            josef = window.sessionStorage.getItem("josef"); //2
+            kobenbach = window.sessionStorage.getItem("kobenbach"); //3
+            hofgrube = window.sessionStorage.getItem("hofgrube");  //4
+            vogelsberg = window.sessionStorage.getItem("vogelsberg");//5
+            vogelsberg2 = window.sessionStorage.getItem("vogelsberg2");//6
+            vogelsberg1 = window.sessionStorage.getItem("vogelsberg1");//7
+            hoffnung = window.sessionStorage.getItem("hoffnung");//8
+            barbara = window.sessionStorage.getItem("barbara");//9
+            walli = window.sessionStorage.getItem("walli");//10
+            eichbaum = window.sessionStorage.getItem("eichbaum"); //11
+            schuerzig = window.sessionStorage.getItem("schuerzig"); //12
 
+            if (stromverteiler === null)
+              stromverteiler = "_";
+            if (josef === null)
+              josef = "_";
+            if (kobenbach === null)
+              kobenbach = "_";
+            if (hofgrube === null)
+              hofgrube = "_";
+            if (vogelsberg === null)
+              vogelsberg = "_";
+            if (vogelsberg1 === null)
+              vogelsberg1 = "_";
+            if (vogelsberg2 === null)
+              vogelsberg2 = "_";
+            if (hoffnung === null)
+              hoffnung = "_";
+            if (barbara === null)
+              barbara = "_";
+            if (walli === null)
+              walli = "_";
+            if (eichbaum === null)
+              eichbaum = "_";
+            if (schuerzig === null)
+              schuerzig = "_";
 
             //1 2 7 5 4 3 8 6 10 11 9 12
             loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;
 
             
             //$('#loesungswort')[0].value = loesung;
-            window.localStorage.setItem("loesung", loesung);
+            $('#loesungswort')[0].value = loesung;
         });        
     </script>
     <!--div data-role="footer">

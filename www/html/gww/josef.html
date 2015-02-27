@@ -56,7 +56,7 @@
             e.preventDefault();
             v = $("input[type='radio'][name='josef']:checked").val();
             //$.cookie("josef", v, { expires: 7 });
-            window.localStorage.setItem("josef", v);
+            window.sessionStorage.setItem("josef", v);
         });        
     </script>
     <!--div data-role="footer">
