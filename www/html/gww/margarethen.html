@@ -1,0 +1,33 @@
+<div data-role="page" id="gww_margareta">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
+        <h1>Grubenwanderweg: Margarethen-Stollen</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+        <div data-role="collapsible-set">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Geschichte</h3>
+                <p>Die Grube ...</p>
+            </div>
+            
+            <div data-role="collapsible">
+                <h3>Bilder</h3>
+                <a href="img/riss_margareta.jpg" class="swipebox" caption="Riss Margarethen-Stollen">
+                    <img src="img/riss_margareta_thumb.jpg" alt="Riss Margarethen-Stollen">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        $(document).on("pagecreate",function(){
+            //alert("pagecreate event fired!")
+            $('.swipebox').swipebox();
+        });
+    </script>
+    <!--div data-role="footer">
+        <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
+    </div-->
+</div>

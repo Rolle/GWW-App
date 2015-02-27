@@ -1,0 +1,36 @@
+<div data-role="page" id="gww_vogelsberg">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
+        <h1>Grubenwanderweg: Steinbruch Vogelsberg</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+        <div data-role="collapsible-set">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Geschichte</h3>
+                <p>Die Grube ...</p>
+            </div>
+            
+            <div data-role="collapsible">
+                <h3>Bilder</h3>
+                <a href="img/schuerzig.jpg" class="swipebox" caption="Spalth&uuml;tte">
+                    <img src="img/schuerzig_thumb.jpg" alt="Spalth&uuml;tte">
+                </a>
+                <a href="img/scheuer.jpg" class="swipebox" caption="Spalth&uuml;tte">
+                    <img src="img/scheuer_thumb.jpg" alt="Spalth&uuml;tte">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        $(document).on("pagecreate",function(){
+            //alert("pagecreate event fired!")
+            $('.swipebox').swipebox();
+        });
+    </script>
+    <!--div data-role="footer">
+        <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
+    </div-->
+</div>

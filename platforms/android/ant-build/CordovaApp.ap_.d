@@ -161,10 +161,12 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\start.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\sww.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\tourenplaner.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\Capture.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\hoehenprofil.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icon.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icons.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icons.svg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte_sww.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte_sww_klein.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\loader.gif \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\logo_bergwerk.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\logo_small.jpg \
@@ -172,6 +174,11 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\img\scheuer.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\scheuer_thumb.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\schuerzig.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\schuerzig_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\wandern.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\wanderwege_large.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\wanderwege_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\weinstein.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\weinstein_large.JPG \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\index.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery-1.11.2.min.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery.mobile-1.4.5.min.js \
