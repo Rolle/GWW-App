@@ -57,7 +57,8 @@
         $('#save').on('submit',function(e){
             e.preventDefault();
             v = $("input[type='radio'][name='vogelsberg']:checked").val();
-            $.cookie("vogelsberg", v, { expires: 7 });
+            //$.cookie("vogelsberg", v, { expires: 7 });
+            window.localStorage.setItem("vogelsberg", v);
         });           
     </script>
     <!--div data-role="footer">

@@ -143,14 +143,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/html/gww/gww.html",
-			"settings":
-			{
-				"buffer_size": 3497,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -183,13 +175,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/html",
-		"/C/Projects/phonegap/GWW/www/html/gww"
+		"/C/Users/roland/projects/GWW-App",
+		"/C/Users/roland/projects/GWW-App/www",
+		"/C/Users/roland/projects/GWW-App/www/html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww"
 	],
 	"file_history":
 	[
+		"/C/Users/roland/projects/GWW-App/www/html/gww/gww.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/barbara.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/eichbaum.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/hoffnung.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/hofgrube.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/josef.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/kobenbach.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/schuerzig.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/stromverteiler.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg1.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg2.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/walli.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/hoffnung.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/schuerzig.html",
@@ -304,24 +309,11 @@
 		"/C/Projects/ruby/Schnitzeljagd/source/stylesheets/my.css",
 		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/DWS.B2B.IAM.Transfer.NOM.Binding.PROD.xml",
 		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/01_IAM2000_DBB2B_ALTER_PCAMT_ST_PollGetData.sql",
-		"/T/Schmitt/Migration_3-24_SEPA/03_IAM2000_DBB2B_CREATE_TCAMT_054_IBANGroup.sql",
-		"/T/Schmitt/Migration_3-24_SEPA/04_IAM2000_DBB2B_INSERT_TCAMT_054_IBANGroup.sql",
-		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/01_IAM2000_DBB2B_ALTER_PCAMT_ST_Poll.sql",
-		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/Msg/setr.012.001.03.xml",
-		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/Msg/setr.006.001.03.xml",
-		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.39448.000",
-		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.39446.000",
-		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.20601.000",
-		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.20603.000",
-		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/testliste5.txt",
-		"/C/Projects/ruby/BigBrother/app/helpers/user_helper.rb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_failed_swift_orders.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_running_replications.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_avg_call_duration_pw.erb"
+		"/T/Schmitt/Migration_3-24_SEPA/03_IAM2000_DBB2B_CREATE_TCAMT_054_IBANGroup.sql"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -342,6 +334,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".toUpperCase()",
+			"$.cookie(",
 			" </",
 			"svg",
 			"hover",
@@ -440,6 +434,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"window.localStorage.key(",
 			"003D7C",
 			"#003D7C",
 			"#AFCA0B",
@@ -476,39 +472,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/html/gww/gww.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3121,
-								3121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -554,7 +519,7 @@
 	"project": "GWW.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

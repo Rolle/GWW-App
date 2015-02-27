@@ -46,7 +46,8 @@
         $('#save').on('submit',function(e){
             e.preventDefault();
             v = $('#hofgrube')[0].value;
-            $.cookie("hofgrube", v, { expires: 7 });
+            //$.cookie("hofgrube", v, { expires: 7 });
+            window.localStorage.setItem("hofgrube", v);
         });          
     </script>
     <!--div data-role="footer">

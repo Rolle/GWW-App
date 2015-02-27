@@ -35,6 +35,7 @@
         $(document).on("pagecreate",function(e){
             e.preventDefault();
             
+            /*
             stromverteiler = $.cookie("stromverteiler").toUpperCase(); //1
             josef = $.cookie("josef").toUpperCase(); //2
             kobenbach = $.cookie("kobenbach").toUpperCase(); //3
@@ -47,12 +48,28 @@
             walli = $.cookie("walli").toUpperCase();//10
             eichbaum = $.cookie("eichbaum").toUpperCase(); //11
             schuerzig = $.cookie("schuerzig").toUpperCase(); //12
+            */
+
+            stromverteiler = window.localStorage.getItem("stromverteiler").toUpperCase(); //1
+            josef = window.localStorage.getItem("josef").toUpperCase(); //2
+            kobenbach = window.localStorage.getItem("kobenbach").toUpperCase(); //3
+            hofgrube = window.localStorage.getItem("hofgrube").toUpperCase();  //4
+            vogelsberg = window.localStorage.getItem("vogelsberg").toUpperCase();//5
+            vogelsberg2 = window.localStorage.getItem("vogelsberg2").toUpperCase();//6
+            vogelsberg1 = window.localStorage.getItem("vogelsberg1").toUpperCase();//7
+            hoffnung = window.localStorage.getItem("hoffnung").toUpperCase();//8
+            barbara = window.localStorage.getItem("barbara").toUpperCase();//9
+            walli = window.localStorage.getItem("walli").toUpperCase();//10
+            eichbaum = window.localStorage.getItem("eichbaum").toUpperCase(); //11
+            schuerzig = window.localStorage.getItem("schuerzig").toUpperCase(); //12
+
 
             //1 2 7 5 4 3 8 6 10 11 9 12
             loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;
 
             
-            $('#loesungswort')[0].value = loesung;
+            //$('#loesungswort')[0].value = loesung;
+            window.localStorage.setItem("loesung", loesung);
         });        
     </script>
     <!--div data-role="footer">

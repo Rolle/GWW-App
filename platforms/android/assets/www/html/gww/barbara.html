@@ -58,7 +58,9 @@
         $('#save').on('submit',function(e){
             e.preventDefault();
             v = $("input[type='radio'][name='barbara']:checked").val();
-            $.cookie("barbara", v, { expires: 7 });        });           
+            //$.cookie("barbara", v, { expires: 7 });   
+            window.localStorage.setItem("barbara", v);     
+        });           
     </script>
     <!--div data-role="footer">
         <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
