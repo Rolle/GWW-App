@@ -29,19 +29,9 @@
             <div data-role="collapsible">
                 <h3>GWW-Rallye</h3>
                 <form id="save" action="" method="">
-                    <fieldset data-role="controlgroup">
-                        <legend>Wie viele „Bergleute“ stehen vor dem Eingang des Bergwerks? </legend>
-
-                        <input type="radio" name="hoffnung" id="hoffnung-2" value="L">
-                        <label for="hoffnung-2">2 - Lösung: L</label>
-
-                        <input type="radio" name="hoffnung" id="hoffnung-4" value="E">
-                        <label for="hoffnung-4">4 - Lösung: E</label>
-
-                        <input type="radio" name="hoffnung" id="hoffnung-5" value="K">
-                        <label for="hoffnung-5">5 - Lösung: K</label>
-                    </fieldset>
-
+                    <p>Bergleute waren sehr fromme Menschen, bei der Einfahrt in den Berg wurde gebetet. Wie heißt die Schutzheilige der Bergleute? (Dritter Buchstabe des Namens)</p>
+                    <input id="hoffnung" name="hoffnung" type="text" value="" placeholder="Heilige der Bergleute">                        
+                
                     <button class="ui-btn ui-icon-check ui-btn-icon-left ui-corner-all" type="submit">Speichern</button>
                 </form>
             </div> 
@@ -56,7 +46,7 @@
         });
         $('#save').on('submit',function(e){
             e.preventDefault();
-            v = $("input[type='radio'][name='hoffnung']:checked").val();
+            v = $('#hoffnung')[0].value;
             $.cookie("hoffnung", v, { expires: 7 });
         });          
     </script>

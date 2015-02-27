@@ -147,7 +147,7 @@
 			"file": "www/html/gww/gww.html",
 			"settings":
 			{
-				"buffer_size": 3329,
+				"buffer_size": 3497,
 				"line_ending": "Windows"
 			}
 		}
@@ -190,18 +190,18 @@
 	],
 	"file_history":
 	[
-		"/C/Projects/phonegap/GWW/www/html/gww/eichbaum.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/hoffnung.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/schuerzig.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/gww.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/eichbaum.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/josef.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/walli.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/gww.html",
 		"/C/Projects/phonegap/GWW/www/index.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/schuerzig.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/kobenbach.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/hofgrube.html",
 		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
@@ -485,15 +485,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3329,
+						"buffer_size": 3497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3213,
-								3213
+								3121,
+								3121
 							]
 						],
 						"settings":
@@ -503,7 +503,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

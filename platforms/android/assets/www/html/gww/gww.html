@@ -35,18 +35,18 @@
         $(document).on("pagecreate",function(e){
             e.preventDefault();
             
-            stromverteiler = $.cookie("stromverteiler"); //1
-            josef = $.cookie("josef"); //2
-            kobenbach = $.cookie("kobenbach"); //3
-            hofgrube = $.cookie("hofgrube");  //4
-            vogelsberg = $.cookie("vogelsberg");//5
-            vogelsberg2 = $.cookie("vogelsberg2");//6
-            vogelsberg1 = $.cookie("vogelsberg1");//7
-            hoffnung = $.cookie("hoffnung");//8
-            barbara = $.cookie("barbara");//9
-            walli = $.cookie("walli");//10
-            eichbaum = $.cookie("eichbaum"); //11
-            schuerzig = $.cookie("schuerzig"); //12
+            stromverteiler = $.cookie("stromverteiler").toUpperCase(); //1
+            josef = $.cookie("josef").toUpperCase(); //2
+            kobenbach = $.cookie("kobenbach").toUpperCase(); //3
+            hofgrube = $.cookie("hofgrube").toUpperCase();  //4
+            vogelsberg = $.cookie("vogelsberg").toUpperCase();//5
+            vogelsberg2 = $.cookie("vogelsberg2").toUpperCase();//6
+            vogelsberg1 = $.cookie("vogelsberg1").toUpperCase();//7
+            hoffnung = $.cookie("hoffnung").toUpperCase();//8
+            barbara = $.cookie("barbara").toUpperCase();//9
+            walli = $.cookie("walli").toUpperCase();//10
+            eichbaum = $.cookie("eichbaum").toUpperCase(); //11
+            schuerzig = $.cookie("schuerzig").toUpperCase(); //12
 
             //1 2 7 5 4 3 8 6 10 11 9 12
             loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;
