@@ -164,6 +164,22 @@
 			}
 		},
 		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 4496,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/schuerzig.html",
+			"settings":
+			{
+				"buffer_size": 4226,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "www/css/my-page.css",
 			"settings":
 			{
@@ -205,10 +221,8 @@
 	[
 		"/C/Projects/phonegap/GWW",
 		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/css",
-		"/C/Projects/phonegap/GWW/www/css/themes",
-		"/C/Projects/phonegap/GWW/www/html/gww",
-		"/C/Projects/phonegap/GWW/www/html/gww/img"
+		"/C/Projects/phonegap/GWW/www/html",
+		"/C/Projects/phonegap/GWW/www/html/gww"
 	],
 	"file_history":
 	[
@@ -533,7 +547,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -563,7 +577,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -593,11 +607,71 @@
 						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1403,
+								1403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/html/gww/schuerzig.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3177,
+								3178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "www/css/my-page.css",
 					"semi_transient": false,
 					"settings":
@@ -623,7 +697,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
