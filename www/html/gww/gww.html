@@ -1,31 +1,34 @@
 <div data-role="page" id="gww_gww">
     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
         <h1>Grubenwanderweg</h1>
+        <a href="#" class="ui-btn-right" data-icon="info">Hilfe</a>
     </div>
 
     <div role="main" class="ui-content">
         <form>
-            <input id="filter-for-listview" data-type="search" placeholder="Tippen zum Suchen...">
+            <fieldset class="ui-field-contain">
+              <input id="filter-for-listview" data-type="search" placeholder="Tippen zum Suchen...">
+            </fieldset>
         </form>
         <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
 
-          <li><a data-transition="slide" href="betonsteinwerk.html">Parkplatz Betonsteinwerk</a></li>
-		      <li><a data-transition="slide" href="margarethen.html">Margarethen-Stollen</a></li>
-		      <li><a data-transition="slide" href="aufseherhaus.html">Aufseherhaus</a></li>
-          <li><a data-transition="slide" href="stromverteiler.html">Stromverteiler</a></li>
-          <li><a data-transition="slide" href="josef.html">Grube St. Josef</a></li>
-          <li><a data-transition="slide" href="kobenbach.html">Grube Kobenbach</a></li>
-          <li><a data-transition="slide" href="hofgrube.html">Hofgrube</a></li>
-          <li><a data-transition="slide" href="vogelsberg.html">Steinbruch Vogelsberg</a></li>
-          <li><a data-transition="slide" href="vogelsberg2.html">Grube Vogelsberg II</a></li>
-          <li><a data-transition="slide" href="vogelsberg1.html">Grube Vogelsberg I</a></li>
-          <li><a data-transition="slide" href="hoffnung.html">Grube Hoffnung</a></li>
-          <li><a data-transition="slide" href="barbara.html">Grube Barbara (Besucherbergwerk)</a></li>
-          <li><a data-transition="slide" href="walli.html">Walli-Stollen</a></li>
-          <li><a data-transition="slide" href="eichbaum.html">Grube Eichbaum</a></li>
-          <li><a data-transition="slide" href="schuerzig.html">Grube Sch&uuml;rzig</a></li>
-          <li><a data-transition="slide" href="margarethen.html">Margarethen-Brunnen</a></li>
-		      <li><a data-transition="slide" href="untere_schuerzig.html">Untere Sch&uuml;rzig</a></li>
+          <li id="li_bestonsteinwerk"><a data-transition="slide" href="betonsteinwerk.html">Parkplatz Betonsteinwerk</a></li>
+		      <li id="li_margareta"><a data-transition="slide" href="margarethen.html">Margarethen-Stollen</a></li>
+		      <li id="li_aufseherhaus"><a data-transition="slide" href="aufseherhaus.html">Aufseherhaus</a></li>
+          <li id="li_stromverteiler"><a data-transition="slide" href="stromverteiler.html">Stromverteiler</a></li>
+          <li id="li_josef"><a data-transition="slide" href="josef.html">Grube St. Josef</a></li>
+          <li id="li_kobenbach"><a data-transition="slide" href="kobenbach.html">Grube Kobenbach</a></li>
+          <li id="li_hofgrube"><a data-transition="slide" href="hofgrube.html">Hofgrube</a></li>
+          <li id="li_vogelsberg"><a data-transition="slide" href="vogelsberg.html">Steinbruch Vogelsberg</a></li>
+          <li id="li_vogelsberg2"><a data-transition="slide" href="vogelsberg2.html">Grube Vogelsberg II</a></li>
+          <li id="li_vogelsberg1"><a data-transition="slide" href="vogelsberg1.html">Grube Vogelsberg I</a></li>
+          <li id="li_hoffnung"><a data-transition="slide" href="hoffnung.html">Grube Hoffnung</a></li>
+          <li id="li_barbara"><a data-transition="slide" href="barbara.html">Grube Barbara (Besucherbergwerk)</a></li>
+          <li id="li_walli"><a data-transition="slide" href="walli.html">Walli-Stollen</a></li>
+          <li id="li_eichbaum"><a data-transition="slide" href="eichbaum.html">Grube Eichbaum</a></li>
+          <li id="li_schuerzig"><a data-transition="slide" href="schuerzig.html">Grube Sch&uuml;rzig</a></li>
+          <li id="li_brunnen"><a data-transition="slide" href="margarethen.html">Margarethen-Brunnen</a></li>
+		      <li id="li_untere_schuerzig"><a data-transition="slide" href="untere_schuerzig.html">Untere Sch&uuml;rzig</a></li>
 		  
         </ul>
         <fieldset class="ui-field-contain">
@@ -37,21 +40,6 @@
         $(document).on("pagecreate",function(e){
             e.preventDefault();
             
-            /*
-            stromverteiler = $.cookie("stromverteiler").toUpperCase(); //1
-            josef = $.cookie("josef").toUpperCase(); //2
-            kobenbach = $.cookie("kobenbach").toUpperCase(); //3
-            hofgrube = $.cookie("hofgrube").toUpperCase();  //4
-            vogelsberg = $.cookie("vogelsberg").toUpperCase();//5
-            vogelsberg2 = $.cookie("vogelsberg2").toUpperCase();//6
-            vogelsberg1 = $.cookie("vogelsberg1").toUpperCase();//7
-            hoffnung = $.cookie("hoffnung").toUpperCase();//8
-            barbara = $.cookie("barbara").toUpperCase();//9
-            walli = $.cookie("walli").toUpperCase();//10
-            eichbaum = $.cookie("eichbaum").toUpperCase(); //11
-            schuerzig = $.cookie("schuerzig").toUpperCase(); //12
-            */
-
             stromverteiler = window.sessionStorage.getItem("stromverteiler"); //1
             josef = window.sessionStorage.getItem("josef"); //2
             kobenbach = window.sessionStorage.getItem("kobenbach"); //3
