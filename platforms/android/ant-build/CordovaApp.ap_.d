@@ -203,8 +203,17 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\vogelsberg.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\vogelsberg1.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\vogelsberg2.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\walli.html \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\beladen.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\beladen_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\bohren.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\bohren_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\im_spalthaus.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\im_spalthaus_thumb.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\josef_mueller.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\josef_mueller_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\koepfen.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\nikolaus_becker_grube.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\nikolaus_becker_lore.JPG \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\riss_margareta.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\riss_margareta_thumb.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\riss_scherzick.jpg \
@@ -213,6 +222,11 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\scheuer.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\scheuer_thumb.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\schuerzig.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\schuerzig_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\spalten.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\spalten_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\spalthuette_margareta.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\spalthuette_margareta_thumb.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\zerlegen.JPG \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\allgemeines.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\einkehr.html \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\img \
@@ -239,7 +253,6 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\img\logo_small.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\unchecked.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\index.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery-1.11.2.min.js \
-C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery.cookie.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery.mobile-1.4.5.min.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery.mobile-1.4.5.min.map \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery.swipebox.min.js \

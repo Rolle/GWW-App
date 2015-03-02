@@ -10,6 +10,10 @@
               <input id="filter-for-gww" data-type="search" placeholder="Tippen zum Suchen...">
             </fieldset>
         </form>
+        <fieldset class="ui-field-contain">
+          <label for="loesung" style="text-align: center">L&ouml;sungswort:</label>
+          <input id="loesungswort" disabled="disabled" name="loesungswort" type="text" value="" placeholder="L&ouml;sungswort">                   
+        </fieldset>
         <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-gww">
 
           <!--
@@ -26,7 +30,7 @@
           <li><a data-transition="slide" href="vogelsberg2.html"><img id="img_vogelsberg2" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Vogelsberg II</a></li>
           <li><a data-transition="slide" href="vogelsberg1.html"><img id="img_vogelsberg1" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Vogelsberg I</a></li>
           <li><a data-transition="slide" href="hoffnung.html"><img id="img_hoffnung" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Hoffnung</a></li>
-          <li><a data-transition="slide" href="barbara.html"<img id="img_barbara" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Barbara (Besucherbergwerk)</a></li>
+          <li><a data-transition="slide" href="barbara.html"><img id="img_barbara" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Barbara (Besucherbergwerk)</a></li>
           <li><a data-transition="slide" href="walli.html"><img id="img_walli" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Walli-Stollen</a></li>
           <li><a data-transition="slide" href="eichbaum.html"><img id="img_eichbaum" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Eichbaum</a></li>
           <li><a data-transition="slide" href="schuerzig.html"><img id="img_schuerzig" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Sch&uuml;rzig</a></li>
@@ -34,10 +38,7 @@
 		      <!--<li><a data-transition="slide" href="untere_schuerzig.html">Untere Sch&uuml;rzig</a></li>-->
 		  
         </ul>
-        <fieldset class="ui-field-contain">
-          <label for="loesung" style="text-align: center">L&ouml;sungswort:</label>
-          <input id="loesungswort" disabled="disabled" name="loesungswort" type="text" value="" placeholder="L&ouml;sungswort">                   
-        </fieldset>
+
     </div>
     <script>
         $(document).on("pagecreate",function(e){
@@ -56,108 +57,110 @@
             eichbaum = window.sessionStorage.getItem("eichbaum"); //11
             schuerzig = window.sessionStorage.getItem("schuerzig"); //12
 
-            if (stromverteiler === null) {
-              stromverteiler = "_";
-              $("#img_stromverteiler")[0].src = "../../img/unchecked.png";
-            } else {
-              stromverteiler = stromverteiler.toUpperCase();
-              $("#img_stromverteiler")[0].src = "../../img/checked.png";
-            }
+            if ($('#gww_gww').size() > 0) {
+              if (stromverteiler === null) {
+                stromverteiler = "_";
+                $("#img_stromverteiler")[0].src = "../../img/unchecked.png";
+              } else {
+                stromverteiler = stromverteiler.toUpperCase();
+                $("#img_stromverteiler")[0].src = "../../img/checked.png";
+              }
 
-            if (josef === null) {
-              josef = "_";
-              $("#img_josef")[0].src = "../../img/unchecked.png";
-            }else {
-              josef = josef.toUpperCase();
-              $("#img_josef")[0].src = "../../img/checked.png";
-            }
-            
-            if (kobenbach === null) {
-              kobenbach = "_";
-              $("#img_kobenbach")[0].src = "../../img/unchecked.png";
-            }else {
-              kobenbach = kobenbach.toUpperCase();
-              $("#img_kobenbach")[0].src = "../../img/checked.png";
-            }
-            
-            if (hofgrube === null){
-              hofgrube = "_";
-              $("#img_hofgrube")[0].src = "../../img/unchecked.png";
-            }else {
-              hofgrube = hofgrube.toUpperCase();
-              $("#img_hofgrube")[0].src = "../../img/checked.png";
-            }
-            
-            if (vogelsberg === null){
-              vogelsberg = "_";
-              $("#img_vogelsberg")[0].src = "../../img/unchecked.png";
-            }else {
-              vogelsberg = vogelsberg.toUpperCase();
-              $("#img_vogelsberg")[0].src = "../../img/checked.png";
-            }
-            
-            if (vogelsberg1 === null){
-              vogelsberg1 = "_";
-              $("#img_vogelsberg1")[0].src = "../../img/unchecked.png";
-            }else {
-              vogelsberg1 = vogelsberg1.toUpperCase();
-              $("#img_vogelsberg1")[0].src = "../../img/checked.png";
-            }
-            
-            if (vogelsberg2 === null){
-              vogelsberg2 = "_";
-              $("#img_vogelsberg2")[0].src = "../../img/unchecked.png";
-            }else {
-              vogelsberg2 = vogelsberg1.toUpperCase();
-              $("#img_vogelsberg2")[0].src = "../../img/checked.png";
-            }
-            
-            if (hoffnung === null){
-              hoffnung = "_";
-              $("#img_hoffnung")[0].src = "../../img/unchecked.png";
-            }else {
-              hoffnung = hoffnung.toUpperCase();
-              $("#img_hoffnung")[0].src = "../../img/checked.png";
-            }
-            
-            if (barbara === null){
-              barbara = "_";
-              $("#img_barbara")[0].src = "../../img/unchecked.png";
-            }else {
-              barbara = barbara.toUpperCase();
-              $("#img_barbara")[0].src = "../../img/checked.png";
-            }
-            
-            if (walli === null){
-              walli = "_";
-              $("#img_walli")[0].src = "../../img/unchecked.png";
-            }else {
-              walli = walli.toUpperCase();
-              $("#img_walli")[0].src = "../../img/checked.png";
-            }
-            
-            if (eichbaum === null){
-              eichbaum = "_";
-              $("#img_eichbaum")[0].src = "../../img/unchecked.png";
-            }else {
-              eichbaum = eichbaum.toUpperCase();
-              $("#img_eichbaum")[0].src = "../../img/checked.png";
-            }
-            
-            if (schuerzig === null){
-              schuerzig = "_";
-              $("#img_schuerzig")[0].src = "../../img/unchecked.png";
-            }else {
-              schuerzig = schuerzig.toUpperCase();
-              $("#img_schuerzig")[0].src = "../../img/checked.png";
-            }
+              if (josef === null) {
+                josef = "_";
+                $("#img_josef")[0].src = "../../img/unchecked.png";
+              }else {
+                josef = josef.toUpperCase();
+                $("#img_josef")[0].src = "../../img/checked.png";
+              }
+              
+              if (kobenbach === null) {
+                kobenbach = "_";
+                $("#img_kobenbach")[0].src = "../../img/unchecked.png";
+              }else {
+                kobenbach = kobenbach.toUpperCase();
+                $("#img_kobenbach")[0].src = "../../img/checked.png";
+              }
+              
+              if (hofgrube === null){
+                hofgrube = "_";
+                $("#img_hofgrube")[0].src = "../../img/unchecked.png";
+              }else {
+                hofgrube = hofgrube.toUpperCase();
+                $("#img_hofgrube")[0].src = "../../img/checked.png";
+              }
+              
+              if (vogelsberg === null){
+                vogelsberg = "_";
+                $("#img_vogelsberg")[0].src = "../../img/unchecked.png";
+              }else {
+                vogelsberg = vogelsberg.toUpperCase();
+                $("#img_vogelsberg")[0].src = "../../img/checked.png";
+              }
+              
+              if (vogelsberg1 === null){
+                vogelsberg1 = "_";
+                $("#img_vogelsberg1")[0].src = "../../img/unchecked.png";
+              }else {
+                vogelsberg1 = vogelsberg1.toUpperCase();
+                $("#img_vogelsberg1")[0].src = "../../img/checked.png";
+              }
+              
+              if (vogelsberg2 === null){
+                vogelsberg2 = "_";
+                $("#img_vogelsberg2")[0].src = "../../img/unchecked.png";
+              }else {
+                vogelsberg2 = vogelsberg1.toUpperCase();
+                $("#img_vogelsberg2")[0].src = "../../img/checked.png";
+              }
+              
+              if (hoffnung === null){
+                hoffnung = "_";
+                $("#img_hoffnung")[0].src = "../../img/unchecked.png";
+              }else {
+                hoffnung = hoffnung.toUpperCase();
+                $("#img_hoffnung")[0].src = "../../img/checked.png";
+              }
+              
+              if (barbara === null){
+                barbara = "_";
+                $("#img_barbara")[0].src = "../../img/unchecked.png";
+              }else {
+                barbara = barbara.toUpperCase();
+                $("#img_barbara")[0].src = "../../img/checked.png";
+              }
+              
+              if (walli === null){
+                walli = "_";
+                $("#img_walli")[0].src = "../../img/unchecked.png";
+              }else {
+                walli = walli.toUpperCase();
+                $("#img_walli")[0].src = "../../img/checked.png";
+              }
+              
+              if (eichbaum === null){
+                eichbaum = "_";
+                $("#img_eichbaum")[0].src = "../../img/unchecked.png";
+              }else {
+                eichbaum = eichbaum.toUpperCase();
+                $("#img_eichbaum")[0].src = "../../img/checked.png";
+              }
+              
+              if (schuerzig === null){
+                schuerzig = "_";
+                $("#img_schuerzig")[0].src = "../../img/unchecked.png";
+              }else {
+                schuerzig = schuerzig.toUpperCase();
+                $("#img_schuerzig")[0].src = "../../img/checked.png";
+              }
 
-            //1 2 7 5 4 3 8 6 10 11 9 12
-            loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;
+              //1 2 7 5 4 3 8 6 10 11 9 12
+              loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;
 
-            
-            //$('#loesungswort')[0].value = loesung;
-            $('#loesungswort')[0].value = loesung;
+              
+              //$('#loesungswort')[0].value = loesung;
+              $('#loesungswort')[0].value = loesung;
+            }
         });        
     </script>
     <!--div data-role="footer">
