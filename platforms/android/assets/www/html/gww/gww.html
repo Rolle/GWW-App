@@ -1,55 +1,48 @@
 <div data-role="page" id="gww_gww">
     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
         <h1>Grubenwanderweg</h1>
+        <a href="#" class="ui-btn-right" data-icon="info">Hilfe</a>
     </div>
 
     <div role="main" class="ui-content">
         <form>
-            <input id="filter-for-listview" data-type="search" placeholder="Tippen zum Suchen...">
+            <fieldset class="ui-field-contain">
+              <input id="filter-for-gww" data-type="search" placeholder="Tippen zum Suchen...">
+            </fieldset>
         </form>
-        <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+        <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-gww">
 
+          <!--
           <li><a data-transition="slide" href="betonsteinwerk.html">Parkplatz Betonsteinwerk</a></li>
 		      <li><a data-transition="slide" href="margarethen.html">Margarethen-Stollen</a></li>
-		      <li><a data-transition="slide" href="aufseherhaus.html">Aufseherhaus</a></li>
-          <li><a data-transition="slide" href="stromverteiler.html">Stromverteiler</a></li>
-          <li><a data-transition="slide" href="josef.html">Grube St. Josef</a></li>
-          <li><a data-transition="slide" href="kobenbach.html">Grube Kobenbach</a></li>
-          <li><a data-transition="slide" href="hofgrube.html">Hofgrube</a></li>
-          <li><a data-transition="slide" href="vogelsberg.html">Steinbruch Vogelsberg</a></li>
-          <li><a data-transition="slide" href="vogelsberg2.html">Grube Vogelsberg II</a></li>
-          <li><a data-transition="slide" href="vogelsberg1.html">Grube Vogelsberg I</a></li>
-          <li><a data-transition="slide" href="hoffnung.html">Grube Hoffnung</a></li>
-          <li><a data-transition="slide" href="barbara.html">Grube Barbara (Besucherbergwerk)</a></li>
-          <li><a data-transition="slide" href="walli.html">Walli-Stollen</a></li>
-          <li><a data-transition="slide" href="eichbaum.html">Grube Eichbaum</a></li>
-          <li><a data-transition="slide" href="schuerzig.html">Grube Sch&uuml;rzig</a></li>
+		      <li><a data-transition="slide" href="aufseherhaus.html">Aufseherhaus</a></li>-->
+          <li>
+            <a data-transition="slide" href="stromverteiler.html"><img id="img_stromverteiler" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Stromverteiler</a>
+          </li>
+          <li><a data-transition="slide" href="josef.html"><img id="img_josef" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube St. Josef</a></li>
+          <li><a data-transition="slide" href="kobenbach.html"><img id="img_kobenbach" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Kobenbach</a></li>
+          <li><a data-transition="slide" href="hofgrube.html"><img id="img_hofgrube" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Hofgrube</a></li>
+          <li><a data-transition="slide" href="vogelsberg.html"><img id="img_vogelsberg" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Steinbruch Vogelsberg</a></li>
+          <li><a data-transition="slide" href="vogelsberg2.html"><img id="img_vogelsberg2" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Vogelsberg II</a></li>
+          <li><a data-transition="slide" href="vogelsberg1.html"><img id="img_vogelsberg1" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Vogelsberg I</a></li>
+          <li><a data-transition="slide" href="hoffnung.html"><img id="img_hoffnung" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Hoffnung</a></li>
+          <li><a data-transition="slide" href="barbara.html"<img id="img_barbara" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Barbara (Besucherbergwerk)</a></li>
+          <li><a data-transition="slide" href="walli.html"><img id="img_walli" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Walli-Stollen</a></li>
+          <li><a data-transition="slide" href="eichbaum.html"><img id="img_eichbaum" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Eichbaum</a></li>
+          <li><a data-transition="slide" href="schuerzig.html"><img id="img_schuerzig" class="ui-li-icon ui-corner-none ui-li-thumb" src="../../img/unchecked.png"></img>Grube Sch&uuml;rzig</a></li>
           <li><a data-transition="slide" href="margarethen.html">Margarethen-Brunnen</a></li>
-		      <li><a data-transition="slide" href="untere_schuerzig.html">Untere Sch&uuml;rzig</a></li>
+		      <!--<li><a data-transition="slide" href="untere_schuerzig.html">Untere Sch&uuml;rzig</a></li>-->
 		  
         </ul>
-        <label for="loesung" style="text-align: center">L&ouml;sungswort:</label>
-        <input id="loesungswort" disabled="disabled" name="loesungswort" type="text" value="" placeholder="L&ouml;sungswort">                   
+        <fieldset class="ui-field-contain">
+          <label for="loesung" style="text-align: center">L&ouml;sungswort:</label>
+          <input id="loesungswort" disabled="disabled" name="loesungswort" type="text" value="" placeholder="L&ouml;sungswort">                   
+        </fieldset>
     </div>
     <script>
         $(document).on("pagecreate",function(e){
             e.preventDefault();
             
-            /*
-            stromverteiler = $.cookie("stromverteiler").toUpperCase(); //1
-            josef = $.cookie("josef").toUpperCase(); //2
-            kobenbach = $.cookie("kobenbach").toUpperCase(); //3
-            hofgrube = $.cookie("hofgrube").toUpperCase();  //4
-            vogelsberg = $.cookie("vogelsberg").toUpperCase();//5
-            vogelsberg2 = $.cookie("vogelsberg2").toUpperCase();//6
-            vogelsberg1 = $.cookie("vogelsberg1").toUpperCase();//7
-            hoffnung = $.cookie("hoffnung").toUpperCase();//8
-            barbara = $.cookie("barbara").toUpperCase();//9
-            walli = $.cookie("walli").toUpperCase();//10
-            eichbaum = $.cookie("eichbaum").toUpperCase(); //11
-            schuerzig = $.cookie("schuerzig").toUpperCase(); //12
-            */
-
             stromverteiler = window.sessionStorage.getItem("stromverteiler"); //1
             josef = window.sessionStorage.getItem("josef"); //2
             kobenbach = window.sessionStorage.getItem("kobenbach"); //3
@@ -63,30 +56,101 @@
             eichbaum = window.sessionStorage.getItem("eichbaum"); //11
             schuerzig = window.sessionStorage.getItem("schuerzig"); //12
 
-            if (stromverteiler === null)
+            if (stromverteiler === null) {
               stromverteiler = "_";
-            if (josef === null)
+              $("#img_stromverteiler")[0].src = "../../img/unchecked.png";
+            } else {
+              stromverteiler = stromverteiler.toUpperCase();
+              $("#img_stromverteiler")[0].src = "../../img/checked.png";
+            }
+
+            if (josef === null) {
               josef = "_";
-            if (kobenbach === null)
+              $("#img_josef")[0].src = "../../img/unchecked.png";
+            }else {
+              josef = josef.toUpperCase();
+              $("#img_josef")[0].src = "../../img/checked.png";
+            }
+            
+            if (kobenbach === null) {
               kobenbach = "_";
-            if (hofgrube === null)
+              $("#img_kobenbach")[0].src = "../../img/unchecked.png";
+            }else {
+              kobenbach = kobenbach.toUpperCase();
+              $("#img_kobenbach")[0].src = "../../img/checked.png";
+            }
+            
+            if (hofgrube === null){
               hofgrube = "_";
-            if (vogelsberg === null)
+              $("#img_hofgrube")[0].src = "../../img/unchecked.png";
+            }else {
+              hofgrube = hofgrube.toUpperCase();
+              $("#img_hofgrube")[0].src = "../../img/checked.png";
+            }
+            
+            if (vogelsberg === null){
               vogelsberg = "_";
-            if (vogelsberg1 === null)
+              $("#img_vogelsberg")[0].src = "../../img/unchecked.png";
+            }else {
+              vogelsberg = vogelsberg.toUpperCase();
+              $("#img_vogelsberg")[0].src = "../../img/checked.png";
+            }
+            
+            if (vogelsberg1 === null){
               vogelsberg1 = "_";
-            if (vogelsberg2 === null)
+              $("#img_vogelsberg1")[0].src = "../../img/unchecked.png";
+            }else {
+              vogelsberg1 = vogelsberg1.toUpperCase();
+              $("#img_vogelsberg1")[0].src = "../../img/checked.png";
+            }
+            
+            if (vogelsberg2 === null){
               vogelsberg2 = "_";
-            if (hoffnung === null)
+              $("#img_vogelsberg2")[0].src = "../../img/unchecked.png";
+            }else {
+              vogelsberg2 = vogelsberg1.toUpperCase();
+              $("#img_vogelsberg2")[0].src = "../../img/checked.png";
+            }
+            
+            if (hoffnung === null){
               hoffnung = "_";
-            if (barbara === null)
+              $("#img_hoffnung")[0].src = "../../img/unchecked.png";
+            }else {
+              hoffnung = hoffnung.toUpperCase();
+              $("#img_hoffnung")[0].src = "../../img/checked.png";
+            }
+            
+            if (barbara === null){
               barbara = "_";
-            if (walli === null)
+              $("#img_barbara")[0].src = "../../img/unchecked.png";
+            }else {
+              barbara = barbara.toUpperCase();
+              $("#img_barbara")[0].src = "../../img/checked.png";
+            }
+            
+            if (walli === null){
               walli = "_";
-            if (eichbaum === null)
+              $("#img_walli")[0].src = "../../img/unchecked.png";
+            }else {
+              walli = walli.toUpperCase();
+              $("#img_walli")[0].src = "../../img/checked.png";
+            }
+            
+            if (eichbaum === null){
               eichbaum = "_";
-            if (schuerzig === null)
+              $("#img_eichbaum")[0].src = "../../img/unchecked.png";
+            }else {
+              eichbaum = eichbaum.toUpperCase();
+              $("#img_eichbaum")[0].src = "../../img/checked.png";
+            }
+            
+            if (schuerzig === null){
               schuerzig = "_";
+              $("#img_schuerzig")[0].src = "../../img/unchecked.png";
+            }else {
+              schuerzig = schuerzig.toUpperCase();
+              $("#img_schuerzig")[0].src = "../../img/checked.png";
+            }
 
             //1 2 7 5 4 3 8 6 10 11 9 12
             loesung = stromverteiler + josef + vogelsberg1 + vogelsberg + hofgrube+kobenbach+hoffnung+vogelsberg2+walli+eichbaum+barbara+schuerzig;

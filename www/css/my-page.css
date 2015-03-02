@@ -1,9 +1,9 @@
 /* A bit custom styling */
 .my-page .ui-listview li .ui-btn p {
-    color: #FFFFFF;
+    color: #186f8d;
 }
 .my-page .ui-listview li .ui-btn .ui-li-aside {
-    color: #eee;
+    color: #186f8d;
 }
 /* First breakpoint is 48em (768px). 3 column layout. Tiles 250x250 pixels incl. margin at the breakpoint. */
 @media ( min-width: 48em ) {
@@ -61,6 +61,7 @@
         min-height: 50%;
         bottom: 0;
     }
+
     /* Semi transparent background and different position if there is a thumb. The button has overflow hidden so we don't need to set border-radius. */
     .ui-listview .ui-li-has-thumb h2,
     .ui-listview .ui-li-has-thumb p {
