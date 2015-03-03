@@ -144,10 +144,26 @@
 	"buffers":
 	[
 		{
+			"file": "www/html/gww/kobenbach.html",
+			"settings":
+			{
+				"buffer_size": 4784,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "www/html/bw/angebote.html",
 			"settings":
 			{
-				"buffer_size": 11717,
+				"buffer_size": 11694,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/bw/bistro.html",
+			"settings":
+			{
+				"buffer_size": 4758,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,15 +171,7 @@
 			"file": "www/html/bw/infozentrum.html",
 			"settings":
 			{
-				"buffer_size": 8895,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/html/bw/kontakt.html",
-			"settings":
-			{
-				"buffer_size": 1371,
+				"buffer_size": 8872,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,7 +179,39 @@
 			"file": "www/html/bw/oeffnungszeiten.html",
 			"settings":
 			{
-				"buffer_size": 4114,
+				"buffer_size": 4091,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/aufseherhaus.html",
+			"settings":
+			{
+				"buffer_size": 1866,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/barbara.html",
+			"settings":
+			{
+				"buffer_size": 4563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/betonsteinwerk.html",
+			"settings":
+			{
+				"buffer_size": 3710,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/brunnen.html",
+			"settings":
+			{
+				"buffer_size": 1693,
 				"line_ending": "Windows"
 			}
 		},
@@ -179,7 +219,15 @@
 			"file": "www/html/gww/eichbaum.html",
 			"settings":
 			{
-				"buffer_size": 5001,
+				"buffer_size": 4978,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/hilfe.html",
+			"settings":
+			{
+				"buffer_size": 3490,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,7 +235,7 @@
 			"file": "www/html/gww/hoffnung.html",
 			"settings":
 			{
-				"buffer_size": 4431,
+				"buffer_size": 4408,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +243,7 @@
 			"file": "www/html/gww/hofgrube.html",
 			"settings":
 			{
-				"buffer_size": 4224,
+				"buffer_size": 4201,
 				"line_ending": "Windows"
 			}
 		},
@@ -203,15 +251,15 @@
 			"file": "www/html/gww/josef.html",
 			"settings":
 			{
-				"buffer_size": 5097,
+				"buffer_size": 5074,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/html/gww/kobenbach.html",
+			"file": "www/html/gww/margarethen.html",
 			"settings":
 			{
-				"buffer_size": 4800,
+				"buffer_size": 1684,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,7 +267,15 @@
 			"file": "www/html/gww/schuerzig.html",
 			"settings":
 			{
-				"buffer_size": 4966,
+				"buffer_size": 4943,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/stromverteiler.html",
+			"settings":
+			{
+				"buffer_size": 2633,
 				"line_ending": "Windows"
 			}
 		},
@@ -227,7 +283,7 @@
 			"file": "www/html/gww/untere_schuerzig.html",
 			"settings":
 			{
-				"buffer_size": 2905,
+				"buffer_size": 2882,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,7 +291,7 @@
 			"file": "www/html/gww/vogelsberg.html",
 			"settings":
 			{
-				"buffer_size": 6195,
+				"buffer_size": 6172,
 				"line_ending": "Windows"
 			}
 		},
@@ -243,7 +299,7 @@
 			"file": "www/html/gww/vogelsberg1.html",
 			"settings":
 			{
-				"buffer_size": 4779,
+				"buffer_size": 4756,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,23 +307,15 @@
 			"file": "www/html/gww/vogelsberg2.html",
 			"settings":
 			{
-				"buffer_size": 4525,
+				"buffer_size": 4502,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/html/sww/allgemeines.html",
+			"file": "www/html/gww/walli.html",
 			"settings":
 			{
-				"buffer_size": 2441,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/html/sww/start.html",
-			"settings":
-			{
-				"buffer_size": 1843,
+				"buffer_size": 4244,
 				"line_ending": "Windows"
 			}
 		}
@@ -306,27 +354,35 @@
 		"/C/Users/roland/projects/GWW-App",
 		"/C/Users/roland/projects/GWW-App/www",
 		"/C/Users/roland/projects/GWW-App/www/html",
-		"/C/Users/roland/projects/GWW-App/www/html/bw",
 		"/C/Users/roland/projects/GWW-App/www/html/gww",
 		"/C/Users/roland/projects/GWW-App/www/html/sww"
 	],
 	"file_history":
 	[
-		"/C/Users/roland/projects/GWW-App/www/html/gww/index.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/brunnen.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/margarethen.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/angebote.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/infozentrum.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/kontakt.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/oeffnungszeiten.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/eichbaum.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/hoffnung.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/hofgrube.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/josef.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/kobenbach.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/schuerzig.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/untere_schuerzig.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg1.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg2.html",
+		"/C/Users/roland/projects/GWW-App/www/html/sww/allgemeines.html",
+		"/C/Users/roland/projects/GWW-App/www/html/sww/start.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/index.html",
 		"/C/Users/roland/projects/GWW-App/www/html/veranstaltungen.html",
 		"/C/Users/roland/projects/GWW-App/www/html/bw/index.html",
 		"/C/Users/roland/projects/GWW-App/www/html/sww/index.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/barbara.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/eichbaum.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/hoffnung.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/hofgrube.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/kobenbach.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/schuerzig.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/stromverteiler.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg1.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg2.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/walli.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/gww.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
@@ -430,16 +486,7 @@
 		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/my.css",
 		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/docs.min.css",
 		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
-		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
-		"/home/roland/projects/schnitzeljagd/source/layouts/layout.erb",
-		"/home/roland/projects/schnitzeljagd/source/anmeldung.html.erb",
-		"/home/roland/projects/schnitzeljagd/source/ablauf.html.erb",
-		"/home/roland/projects/schnitzeljagd/source/strecke.html.erb",
-		"/C/Projects/ruby/Schnitzeljagd/source/ablauf.html.erb",
-		"/C/Projects/ruby/Schnitzeljagd/source/strecke.html.erb",
-		"/C/Projects/ruby/Schnitzeljagd/source/index.html.erb",
-		"/C/Projects/ruby/Schnitzeljagd/source/layouts/layout.erb",
-		"/C/Projects/ruby/Schnitzeljagd/source/anmeldung.html.erb"
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css"
 	],
 	"find":
 	{
@@ -466,6 +513,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" data-collapsed=\"false\"",
 			"ß",
 			"localStorage",
 			"undefined",
@@ -569,6 +617,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"&szlig;",
 			"sessionStorage",
 			"null",
@@ -610,24 +659,54 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 21,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/html/bw/angebote.html",
+					"file": "www/html/gww/kobenbach.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11717,
+						"buffer_size": 4784,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11425,
-								548
+								1205,
+								1205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/html/bw/angebote.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -640,16 +719,136 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "www/html/bw/bistro.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "www/html/bw/infozentrum.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8895,
+						"buffer_size": 8872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/html/bw/oeffnungszeiten.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/html/gww/aufseherhaus.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/html/gww/barbara.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4563,
 						"regions":
 						{
 						},
@@ -674,12 +873,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "www/html/bw/kontakt.html",
+					"buffer": 7,
+					"file": "www/html/gww/betonsteinwerk.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1371,
+						"buffer_size": 3710,
 						"regions":
 						{
 						},
@@ -704,42 +903,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "www/html/bw/oeffnungszeiten.html",
+					"buffer": 8,
+					"file": "www/html/gww/brunnen.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4028,
-								4028
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/html/gww/eichbaum.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5001,
+						"buffer_size": 1693,
 						"regions":
 						{
 						},
@@ -764,12 +933,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "www/html/gww/hoffnung.html",
+					"buffer": 9,
+					"file": "www/html/gww/eichbaum.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4431,
+						"buffer_size": 4978,
 						"regions":
 						{
 						},
@@ -794,12 +963,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "www/html/gww/hofgrube.html",
+					"buffer": 10,
+					"file": "www/html/gww/hilfe.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4224,
+						"buffer_size": 3490,
 						"regions":
 						{
 						},
@@ -824,12 +993,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "www/html/gww/josef.html",
+					"buffer": 11,
+					"file": "www/html/gww/hoffnung.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5097,
+						"buffer_size": 4408,
 						"regions":
 						{
 						},
@@ -854,12 +1023,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "www/html/gww/kobenbach.html",
+					"buffer": 12,
+					"file": "www/html/gww/hofgrube.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4800,
+						"buffer_size": 4201,
 						"regions":
 						{
 						},
@@ -884,12 +1053,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "www/html/gww/schuerzig.html",
+					"buffer": 13,
+					"file": "www/html/gww/josef.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4966,
+						"buffer_size": 5074,
 						"regions":
 						{
 						},
@@ -914,12 +1083,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "www/html/gww/untere_schuerzig.html",
+					"buffer": 14,
+					"file": "www/html/gww/margarethen.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2905,
+						"buffer_size": 1684,
 						"regions":
 						{
 						},
@@ -944,12 +1113,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "www/html/gww/vogelsberg.html",
+					"buffer": 15,
+					"file": "www/html/gww/schuerzig.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6195,
+						"buffer_size": 4943,
 						"regions":
 						{
 						},
@@ -974,12 +1143,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "www/html/gww/vogelsberg1.html",
+					"buffer": 16,
+					"file": "www/html/gww/stromverteiler.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4779,
+						"buffer_size": 2633,
 						"regions":
 						{
 						},
@@ -1004,12 +1173,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "www/html/gww/vogelsberg2.html",
+					"buffer": 17,
+					"file": "www/html/gww/untere_schuerzig.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4525,
+						"buffer_size": 2882,
 						"regions":
 						{
 						},
@@ -1034,12 +1203,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "www/html/sww/allgemeines.html",
+					"buffer": 18,
+					"file": "www/html/gww/vogelsberg.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2441,
+						"buffer_size": 6172,
 						"regions":
 						{
 						},
@@ -1052,7 +1221,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1062,12 +1233,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "www/html/sww/start.html",
+					"buffer": 19,
+					"file": "www/html/gww/vogelsberg1.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1843,
+						"buffer_size": 4756,
 						"regions":
 						{
 						},
@@ -1089,6 +1260,66 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "www/html/gww/vogelsberg2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "www/html/gww/walli.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1136,7 +1367,7 @@
 	"project": "GWW.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
