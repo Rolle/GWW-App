@@ -1,0 +1,26 @@
+<div data-role="page" id="hile_gww">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">
+        <h1>Grubenwanderweg</h1>
+    </div>
+        <div role="main" class="ui-content">
+        <h3 class="ui-bar ui-bar-a ui-corner-all">Der Grubenwanderweg</h3>
+        <div data-role="collapsible-set">
+        
+        </div>
+    </div>
+      <script>
+        $(document).on("pagecreate",function(){
+            //alert("pagecreate event fired!")
+            $('.swipebox').swipebox();
+        });
+        $('#save').on('submit',function(e){
+            e.preventDefault();
+            v = $("input[type='radio'][name='barbara']:checked").val();
+            //$.cookie("barbara", v, { expires: 7 });   
+            window.sessionStorage.setItem("barbara", v);     
+        });           
+    </script>
+    <!--div data-role="footer">
+        <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
+    </div-->
+</div>    
