@@ -4,7 +4,7 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
               <li><a data-transition="slide" href="index.html" data-icon="arrow-l">Zur&uuml;ck</a>
-              <li><a data-transition="slide" href="" data-icon="location">Karte</a>            
+              <li><a href="../../img/karte.jpg" data-icon="location" rel="karte" class="swipebox">Karte</a></li>
             </ul>
           </div>        
         
@@ -28,12 +28,13 @@
             
         </div>
     </div>
-  <script>
+    <script>
         $(document).on("pagecreate",function(){
             //alert("pagecreate event fired!")
             $('.swipebox').swipebox();
         });
     </script>
+    
     <!--div data-role="footer">
         <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
     </div-->
