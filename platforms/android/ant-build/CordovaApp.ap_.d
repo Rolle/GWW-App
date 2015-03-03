@@ -174,6 +174,7 @@ c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\bw\img\weingl
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\aufseherhaus.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\barbara.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\betonsteinwerk.html \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\brunnen.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\eichbaum.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\hilfe.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\hoffnung.html \
@@ -194,9 +195,9 @@ c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\belad
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\bohren.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\im_spalthaus.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\josef_mueller.jpg \
-c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\koepfen.JPG \
-c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\nikolaus_becker_grube.JPG \
-c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\nikolaus_becker_lore.JPG \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\koepfen.jpg \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\nikolaus_becker_grube.jpg \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\nikolaus_becker_lore.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\riss_margareta.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\riss_scherzick.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\scheuer.jpg \
