@@ -143,38 +143,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/html/sww/karte.html",
-			"settings":
-			{
-				"buffer_size": 1677,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/html/sww/einkehr.html",
-			"settings":
-			{
-				"buffer_size": 2114,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/html/sww/allgemeines.html",
-			"settings":
-			{
-				"buffer_size": 2457,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/html/sww/start.html",
-			"settings":
-			{
-				"buffer_size": 1859,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -210,15 +178,25 @@
 		"/C/Projects/phonegap/GWW",
 		"/C/Projects/phonegap/GWW/www",
 		"/C/Projects/phonegap/GWW/www/html",
-		"/C/Projects/phonegap/GWW/www/html/bw",
-		"/C/Projects/phonegap/GWW/www/html/gww",
-		"/C/Projects/phonegap/GWW/www/html/sww"
+		"/C/Projects/phonegap/GWW/www/html/gww"
 	],
 	"file_history":
 	[
-		"/C/Projects/phonegap/GWW/www/html/gww/hilfe.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/index.html",
+		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
+		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/veranstaltungen.html",
+		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/anfahrt.html",
+		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/sww/einkehr.html",
+		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/kontakt.html",
+		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/oeffnungszeiten.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/index.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/karte.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/start.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/hilfe.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/aufseherhaus.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
@@ -235,10 +213,6 @@
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/karte.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/start.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/kobenbach.html",
 		"/C/Users/roland/projects/GWW-App/www/html/bw/angebote.html",
 		"/C/Users/roland/projects/GWW-App/www/html/bw/bistro.html",
@@ -273,10 +247,7 @@
 		"/C/Projects/phonegap/GWW/www/html/gww/gww.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/walli.html",
 		"/C/Projects/phonegap/GWW/www/index.html",
-		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/infozentrum.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bw.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/oeffnungszeiten.html",
@@ -338,12 +309,7 @@
 		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141116124811_add_paid_to_registrations.rb",
 		"/home/roland/projects/rails-schnitzeljagd/config/application.rb",
 		"/home/roland/projects/rails-schnitzeljagd/config/database.yml",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss"
 	],
 	"find":
 	{
@@ -354,6 +320,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Projects\\phonegap\\GWW,*.html",
 			"C:\\Users\\roland\\projects\\GWW-App\\www,*.html",
 			"C:\\Users\\roland\\projects\\GWW-App\\www",
 			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views",
@@ -370,6 +337,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"www.",
 			"MERGE",
 			"<a data-transition=\"slide\" href=\"index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
 			" data-collapsed=\"false\"",
@@ -519,125 +487,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/html/sww/karte.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1677,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1402,
-								1402
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "www/html/sww/einkehr.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								569,
-								620
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "www/html/sww/allgemeines.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								567,
-								618
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 100.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "www/html/sww/start.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1859,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								565,
-								619
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
