@@ -23,7 +23,7 @@
 		<div data-role="collapsible" data-collapsed="true">					
 		<h3>Bergwerksrallye f&uuml;r Kinder</h3>
 		<p>F&uuml;r kleine Wanderer gibt es unsere Bergwerksrallye. Dabei werden an verschiedenen Stationen des Grubenwanderweges Fragen gestellt oder es sind kleine Aufgaben zu l&ouml;sen, Taschenlampe also nicht vergessen...</p>
-		<p>Die jeweilige L&ouml;sung wird direkt in der App unter der jeweiligen Station eingetragen und ergibt ein L&ouml;sungswort. Wird dieses am Besucherbergwerk genannt, erwartet den Entdecker eine kleine &uuml;berraschung!</p>
+		<p>Die jeweilige L&ouml;sung wird direkt in der App unter der jeweiligen Station eingetragen und ergibt ein L&ouml;sungswort. Wird dieses am Besucherbergwerk genannt, erwartet den Entdecker eine kleine &Uuml;berraschung!</p>
 		</div>
 		
 		<div data-role="collapsible" data-collapsed="true">					
@@ -32,18 +32,6 @@
         </div>
         </div>
     </div>
-      <script>
-        $(document).on("pagecreate",function(){
-            //alert("pagecreate event fired!")
-            $('.swipebox').swipebox();
-        });
-        $('#save').on('submit',function(e){
-            e.preventDefault();
-            v = $("input[type='radio'][name='barbara']:checked").val();
-            //$.cookie("barbara", v, { expires: 7 });   
-            window.sessionStorage.setItem("barbara", v);     
-        });           
-    </script>
     <!--div data-role="footer">
         <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
     </div-->

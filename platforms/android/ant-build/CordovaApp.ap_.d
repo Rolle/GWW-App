@@ -191,11 +191,15 @@ c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\vogelsber
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\vogelsberg1.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\vogelsberg2.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\walli.html \
-c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\beladen.JPG \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\beladen.jpg \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\betriebsgebaude.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\bohren.jpg \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\foerderturm.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\im_spalthaus.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\josef_mueller.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\koepfen.jpg \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\lkw.jpg \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\lohntuete.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\nikolaus_becker_grube.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\nikolaus_becker_lore.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\riss_margareta.jpg \
@@ -204,7 +208,7 @@ c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\scheu
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\schuerzig.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\spalten.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\spalthuette_margareta.jpg \
-c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\zerlegen.JPG \
+c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\gww\img\zerlegen.jpg \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\sww\allgemeines.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\sww\einkehr.html \
 c:\Users\roland\projects\GWW-App\platforms\android\assets\www\html\sww\img \

@@ -143,6 +143,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "www/html/gww/vogelsberg.html",
+			"settings":
+			{
+				"buffer_size": 6196,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/vogelsberg2.html",
+			"settings":
+			{
+				"buffer_size": 5001,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/hoffnung.html",
+			"settings":
+			{
+				"buffer_size": 5017,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -175,83 +199,78 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/html",
-		"/C/Projects/phonegap/GWW/www/html/gww"
+		"/C/Users/roland/projects/GWW-App",
+		"/C/Users/roland/projects/GWW-App/www",
+		"/C/Users/roland/projects/GWW-App/www/html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww",
+		"/C/Users/roland/projects/GWW-App/www/html/sww"
 	],
 	"file_history":
 	[
-		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
-		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/veranstaltungen.html",
-		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/anfahrt.html",
-		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/sww/einkehr.html",
-		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/kontakt.html",
-		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/oeffnungszeiten.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/index.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/karte.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/start.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/hilfe.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/aufseherhaus.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/brunnen.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/eichbaum.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/hoffnung.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/hofgrube.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/josef.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/kobenbach.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/margarethen.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/schuerzig.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/untere_schuerzig.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/josef.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/kobenbach.html",
 		"/C/Users/roland/projects/GWW-App/www/html/bw/angebote.html",
 		"/C/Users/roland/projects/GWW-App/www/html/bw/bistro.html",
-		"/C/Users/roland/projects/GWW-App/www/html/bw/index.html",
 		"/C/Users/roland/projects/GWW-App/www/html/bw/infozentrum.html",
-		"/C/Users/roland/projects/GWW-App/www/html/bw/kontakt.html",
-		"/C/Users/roland/projects/GWW-App/www/html/bw/oeffnungszeiten.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/aufseherhaus.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/barbara.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/betonsteinwerk.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/brunnen.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/eichbaum.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/hilfe.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/hoffnung.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/hofgrube.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/josef.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/margarethen.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/schuerzig.html",
-		"/C/Users/roland/projects/GWW-App/www/html/gww/stromverteiler.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/untere_schuerzig.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg1.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/vogelsberg2.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/walli.html",
-		"/C/Users/roland/projects/GWW-App/www/html/bw/anfahrt.html",
 		"/C/Users/roland/projects/GWW-App/www/html/sww/allgemeines.html",
+		"/C/Users/roland/projects/GWW-App/www/html/sww/einkehr.html",
+		"/C/Users/roland/projects/GWW-App/www/html/sww/karte.html",
 		"/C/Users/roland/projects/GWW-App/www/html/sww/start.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/index.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/anfahrt.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/hilfe.html",
+		"/C/Users/roland/projects/GWW-App/www/html/gww/stromverteiler.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/index.html",
-		"/C/Users/roland/projects/GWW-App/www/html/veranstaltungen.html",
 		"/C/Users/roland/projects/GWW-App/www/html/sww/index.html",
+		"/C/Users/roland/projects/GWW-App/www/html/veranstaltungen.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/kontakt.html",
+		"/C/Users/roland/projects/GWW-App/www/html/bw/oeffnungszeiten.html",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/gww.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/barbara.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/hoffnung.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/gww.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/eichbaum.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/josef.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/walli.html",
 		"/C/Projects/phonegap/GWW/www/index.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/kobenbach.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/hofgrube.html",
+		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/infozentrum.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bw.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/oeffnungszeiten.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/aufseherhaus.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/margarethen.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/untere_schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/fuehrungen.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/karte.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/start.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/sww.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/tourenplaner.html",
 		"/C/Projects/phonegap/GWW/www/js/jquery.swipebox.min.js",
@@ -259,6 +278,7 @@
 		"/C/Projects/phonegap/GWW/www/html/kalender.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/index.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/index.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/index.html",
 		"/C/Projects/phonegap/GWW/www/schuerzig.html",
 		"/C/Projects/phonegap/GWW/GWW/www/index.html",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
@@ -309,7 +329,12 @@
 		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141116124811_add_paid_to_registrations.rb",
 		"/home/roland/projects/rails-schnitzeljagd/config/application.rb",
 		"/home/roland/projects/rails-schnitzeljagd/config/database.yml",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css"
 	],
 	"find":
 	{
@@ -320,7 +345,6 @@
 		"height": 90.0,
 		"where_history":
 		[
-			"C:\\Projects\\phonegap\\GWW,*.html",
 			"C:\\Users\\roland\\projects\\GWW-App\\www,*.html",
 			"C:\\Users\\roland\\projects\\GWW-App\\www",
 			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views",
@@ -337,8 +361,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"www.",
-			"MERGE",
+			"caption=\"",
+			"<li><a data-transition=\"slide\"  href=\"../../index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
 			"<a data-transition=\"slide\" href=\"index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
 			" data-collapsed=\"false\"",
 			"ß",
@@ -444,6 +468,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"title=\"",
+			"<li><a data-rel=\"back\" data-transition=\"slide\"  href=\"../../index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
 			"<a data-rel=\"back\" data-transition=\"slide\" href=\"index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
 			"",
 			"&szlig;",
@@ -487,8 +513,99 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/html/gww/vogelsberg.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5525,
+								5525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 911.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/html/gww/vogelsberg2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4515,
+								4515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 779.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/html/gww/hoffnung.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2629,
+								2629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 535.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
