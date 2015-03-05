@@ -1,4 +1,4 @@
-c:\Users\roland\projects\GWW-App\platforms\android\ant-build\CordovaApp-debug-unaligned.apk : \
-c:\Users\roland\projects\GWW-App\platforms\android\ant-build\CordovaApp.ap_ \
-c:\Users\roland\projects\GWW-App\platforms\android\ant-build\classes.dex \
-C:\Users\roland\projects\GWW-App\platforms\android\CordovaLib\ant-build\classes.jar \
+C:\Projects\phonegap\GWW\platforms\android\ant-build\CordovaApp-debug-unaligned.apk : \
+C:\Projects\phonegap\GWW\platforms\android\ant-build\CordovaApp.ap_ \
+C:\Projects\phonegap\GWW\platforms\android\ant-build\classes.dex \
+C:\Projects\phonegap\GWW\platforms\android\CordovaLib\ant-build\classes.jar \
