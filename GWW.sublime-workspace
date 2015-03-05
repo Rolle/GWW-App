@@ -143,6 +143,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "www/html/gww/stromverteiler.html",
+			"settings":
+			{
+				"buffer_size": 4069,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/gww/betonsteinwerk.html",
+			"settings":
+			{
+				"buffer_size": 4258,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -175,10 +191,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/phonegap/GWW"
+		"/C/Projects/phonegap/GWW",
+		"/C/Projects/phonegap/GWW/www",
+		"/C/Projects/phonegap/GWW/www/html",
+		"/C/Projects/phonegap/GWW/www/html/gww"
 	],
 	"file_history":
 	[
+		"/C/Projects/phonegap/GWW/www/html/gww/untere_schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/hoffnung.html",
@@ -237,7 +257,6 @@
 		"/C/Projects/phonegap/GWW/www/html/gww/aufseherhaus.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/margarethen.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/untere_schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/fuehrungen.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
@@ -485,8 +504,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/html/gww/stromverteiler.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2189,
+								2238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/html/gww/betonsteinwerk.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3762,
+								3762
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
