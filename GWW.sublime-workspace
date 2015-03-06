@@ -144,18 +144,18 @@
 	"buffers":
 	[
 		{
-			"file": "www/html/gww/stromverteiler.html",
+			"file": "www/html/gww/betonsteinwerk.html",
 			"settings":
 			{
-				"buffer_size": 4363,
+				"buffer_size": 4297,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/html/gww/margarethen.html",
+			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 4187,
+				"buffer_size": 4289,
 				"line_ending": "Windows"
 			}
 		}
@@ -193,19 +193,23 @@
 	[
 		"/C/Projects/phonegap/GWW",
 		"/C/Projects/phonegap/GWW/www",
+		"/C/Projects/phonegap/GWW/www/css",
 		"/C/Projects/phonegap/GWW/www/html",
-		"/C/Projects/phonegap/GWW/www/html/gww"
+		"/C/Projects/phonegap/GWW/www/html/gww",
+		"/C/Projects/phonegap/GWW/www/spec"
 	],
 	"file_history":
 	[
+		"/C/Projects/phonegap/GWW/www/index.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/margarethen.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/oeffnungszeiten.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/untere_schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
@@ -250,13 +254,11 @@
 		"/C/Projects/phonegap/GWW/www/html/gww/josef.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/walli.html",
-		"/C/Projects/phonegap/GWW/www/index.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/kobenbach.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/hofgrube.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/infozentrum.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bw.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/aufseherhaus.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/margarethen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/fuehrungen.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
@@ -504,54 +506,55 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/html/gww/stromverteiler.html",
+					"file": "www/html/gww/betonsteinwerk.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4363,
+						"buffer_size": 4297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2575,
-								2576
+								4100,
+								4100
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 546.0,
+						"translation.y": 248.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "www/html/gww/margarethen.html",
+					"file": "www/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4187,
+						"buffer_size": 4289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1790,
-								1790
+								965,
+								965
 							]
 						],
 						"settings":
@@ -561,10 +564,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 952.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -651,7 +654,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 279.0,
+	"side_bar_width": 331.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
