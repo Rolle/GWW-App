@@ -147,15 +147,15 @@
 			"file": "www/html/gww/stromverteiler.html",
 			"settings":
 			{
-				"buffer_size": 4069,
+				"buffer_size": 4363,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/html/gww/betonsteinwerk.html",
+			"file": "www/html/gww/margarethen.html",
 			"settings":
 			{
-				"buffer_size": 4258,
+				"buffer_size": 4187,
 				"line_ending": "Windows"
 			}
 		}
@@ -198,6 +198,14 @@
 	],
 	"file_history":
 	[
+		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
+		"/C/Projects/phonegap/GWW/www/html/bw/oeffnungszeiten.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
+		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/untere_schuerzig.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
@@ -240,22 +248,14 @@
 		"/C/Projects/phonegap/GWW/www/html/gww/gww.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/eichbaum.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/josef.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/stromverteiler.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/walli.html",
 		"/C/Projects/phonegap/GWW/www/index.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/kobenbach.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/hofgrube.html",
-		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/infozentrum.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/kontakt.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bw.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
-		"/C/Projects/phonegap/GWW/www/html/bw/oeffnungszeiten.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/aufseherhaus.html",
-		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/margarethen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/fuehrungen.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
@@ -513,15 +513,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4069,
+						"buffer_size": 4363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2189,
-								2238
+								2575,
+								2576
 							]
 						],
 						"settings":
@@ -531,7 +531,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 546.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -539,19 +539,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "www/html/gww/betonsteinwerk.html",
+					"file": "www/html/gww/margarethen.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4258,
+						"buffer_size": 4187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3762,
-								3762
+								1790,
+								1790
 							]
 						],
 						"settings":
@@ -561,7 +561,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 210.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
