@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="de.bergwerkfell" version="1.0.0">
+<!--<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="de.bergwerkfell" version="1.0.0">
   <name>Bergwerk Fell</name>
   <description>Informationen rund um das Besucherbergwerk Fell</description>
   <author href="http://www.bergwerk-fell.de" email="info@bergwerk-fell.de">Team des Bergwerks Fell</author>
@@ -62,4 +62,19 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
   <access origin="*"/>
+</widget>-->
+
+<widget id="de.bergwerkfell" version="1.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Bergwerk Fell App</name>
+  <description>Informationen rund um das Besucherbergwerk Fell</description>
+  <author href="http://www.bergwerk-fell.de" email="info@bergwerk-fell.de">Team des Bergwerks Fell</author>
+  <content src="index.html"/>
+
+  <icon src="www/res/icon/android/icon_144_xxhdpi.png" />
+  <platform name="android">
+        <icon src="www/res/icon/android/icon_36_ldpi.png" density="ldpi" />
+        <icon src="www/res/icon/android/icon_48_mdpi.png" density="mdpi" />
+        <icon src="www/res/icon/android/icon_72_hdpi.png" density="hdpi" />
+        <icon src="www/res/icon/android/icon_144_xxhdpi.png" density="xhdpi" />
+  </platform>
 </widget>
