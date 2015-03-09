@@ -19,7 +19,12 @@
           <li><a data-transition="slide" href="kontakt.html">Kontakt</a></li>
        </ul>
     </div>
-
+      <script>
+          $(document).on("pagecreate",function(){
+              //alert("pagecreate event fired!")
+              $('.swipebox').swipebox();
+          });
+      </script>
     <!--div data-role="footer" style="overflow:hidden;">
 
     </div-->
