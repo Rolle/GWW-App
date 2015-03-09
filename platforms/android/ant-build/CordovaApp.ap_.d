@@ -10,7 +10,6 @@ C:\Projects\phonegap\GWW\platforms\android\res\drawable-port-ldpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\res\drawable-port-mdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\res\drawable-port-xhdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\res\drawable-xxhdpi\icon.png \
-C:\Projects\phonegap\GWW\platforms\android\res\drawable-xxhdpi\logo.png \
 C:\Projects\phonegap\GWW\platforms\android\res\values\strings.xml \
 C:\Projects\phonegap\GWW\platforms\android\res\xml\config.xml \
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable\icon.png \
@@ -24,7 +23,6 @@ C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-port-ldpi\scre
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-xxhdpi\icon.png \
-C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-xxhdpi\logo.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www \
 C:\Projects\phonegap\GWW\platforms\android\assets\_where-is-www.txt \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\cordova.js \
