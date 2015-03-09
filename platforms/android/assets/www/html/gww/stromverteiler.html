@@ -3,7 +3,7 @@
         <h1>Grubenwanderweg</h1>
         <div data-role="navbar" data-iconpos="top">
             <ul>
-                <li><a data-rel="back" data-transition="slide" href="index.html" data-icon="arrow-l">Zur&uuml;ck</a>
+                <li><a data-rel="back" data-transition="slide" href="index.html" data-icon="arrow-l">Zur&uuml;ck</a></li>
                 <li><a href="../../img/karte.jpg" data-icon="location" rel="karte" class="swipebox">Karte</a></li>
             </ul>
         </div>         
@@ -46,7 +46,7 @@
                 <h3>Bilder</h3>
                 <ul data-role="listview" data-inset="true">
                     <li>
-                        <a href="img/grube.jpg" class="swipebox" title="Haldenlandschaft">
+                        <a id="my-image" href="img/grube.jpg" class="swipebox" title="Haldenlandschaft">
                             <img src="img/grube.jpg" alt="Haldenlandschaft">
                             <p>Blick vom Arthurstollen ins das Nossertal.</p>
                         </a>
@@ -67,7 +67,8 @@
             v = $("input[type='radio'][name='stromverteiler']:checked").val();
             //$.cookie("stromverteiler", v, { expires: 7 });
             window.sessionStorage.setItem("stromverteiler", v);
-        });        
+        });       
+
     </script>
     <!--div data-role="footer">
         <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Inhaltsverzeichnis</a></p>
