@@ -196,6 +196,7 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\betonsteinwer
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\betonsteinwerk2.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\betriebsgebaude.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\bohren.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\fledermaus.JPG \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\foerderturm.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\grube.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\im_spalthaus.jpg \
