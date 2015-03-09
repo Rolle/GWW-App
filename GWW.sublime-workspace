@@ -176,10 +176,7 @@
 	"expanded_folders":
 	[
 		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/html/bw",
-		"/C/Projects/phonegap/GWW/www/html/gww",
-		"/C/Projects/phonegap/GWW/www/html/sww",
+		"/C/Projects/phonegap/GWW/.cordova",
 		"/C/Projects/phonegap/GWW/www/img",
 		"/C/Projects/phonegap/GWW/www/spec"
 	],
