@@ -10,6 +10,7 @@ C:\Projects\phonegap\GWW\platforms\android\res\drawable-port-ldpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\res\drawable-port-mdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\res\drawable-port-xhdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\res\drawable-xxhdpi\icon.png \
+C:\Projects\phonegap\GWW\platforms\android\res\drawable-xxhdpi\logo.png \
 C:\Projects\phonegap\GWW\platforms\android\res\values\strings.xml \
 C:\Projects\phonegap\GWW\platforms\android\res\xml\config.xml \
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable\icon.png \
@@ -23,6 +24,7 @@ C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-port-ldpi\scre
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
 C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-xxhdpi\icon.png \
+C:\Projects\phonegap\GWW\platforms\android\ant-build\res\drawable-xxhdpi\logo.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www \
 C:\Projects\phonegap\GWW\platforms\android\assets\_where-is-www.txt \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\cordova.js \
@@ -196,7 +198,7 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\betonsteinwer
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\betonsteinwerk2.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\betriebsgebaude.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\bohren.jpg \
-C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\fledermaus.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\fledermaus.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\foerderturm.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\grube.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\gww\img\im_spalthaus.jpg \
@@ -229,11 +231,11 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\img\karte_sww.jpg
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\img\wandern.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\img\wanderwege.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\html\sww\img\weinstein.jpg \
-C:\Projects\phonegap\GWW\platforms\android\assets\www\img\Capture.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\capture.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\checked.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icons.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icons.svg \
-C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte.JPG \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte_old.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\loader.gif \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\logo_bergwerk.jpg \
@@ -257,6 +259,7 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\android\icon-36-l
 C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\android\icon-48-mdpi.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\android\icon-72-hdpi.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\android\icon-96-xhdpi.png \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\android\logo-144-xxhdpi.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\bada\icon-128.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\bada-wac\icon-48-type5.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\res\icon\bada-wac\icon-50-type3.png \
