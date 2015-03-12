@@ -147,7 +147,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 4302,
+				"buffer_size": 4479,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,7 +155,7 @@
 			"file": "www/html/sww/index.html",
 			"settings":
 			{
-				"buffer_size": 2127,
+				"buffer_size": 2171,
 				"line_ending": "Windows"
 			}
 		}
@@ -191,10 +191,9 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/phonegap/GWW-App",
-		"/C/Projects/phonegap/GWW-App/www",
-		"/C/Projects/phonegap/GWW-App/www/html",
-		"/C/Projects/phonegap/GWW-App/www/html/sww"
+		"/C/Projects/phonegap/GWW",
+		"/C/Projects/phonegap/GWW/www",
+		"/C/Projects/phonegap/GWW/www/js"
 	],
 	"file_history":
 	[
@@ -516,15 +515,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4302,
+						"buffer_size": 4479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1440,
-								1440
+								2008,
+								2008
 							]
 						],
 						"settings":
@@ -534,7 +533,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -546,15 +545,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2127,
+						"buffer_size": 2171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1885,
-								1885
+								1609,
+								1609
 							]
 						],
 						"settings":
