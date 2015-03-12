@@ -143,17 +143,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<widget xmlns=\"http://www.w3.org/ns/widgets\" xmlns:gap=\"http://phonegap.com/ns/1.0\" id=\"de.bergwerkfell\" version=\"1.0.0\">\n  <name>Bergwerk Fell</name>\n  <description>Informationen rund um das Besucherbergwerk Fell</description>\n  <author href=\"http://www.bergwerk-fell.de\" email=\"info@bergwerk-fell.de\">Team des Bergwerks Fell</author>\n  <content src=\"index.html\"/>\n  <preference name=\"permissions\" value=\"none\"/>\n  <preference name=\"orientation\" value=\"default\"/>\n  <preference name=\"target-device\" value=\"universal\"/>\n  <preference name=\"fullscreen\" value=\"true\"/>\n  <preference name=\"webviewbounce\" value=\"true\"/>\n  <preference name=\"prerendered-icon\" value=\"true\"/>\n  <preference name=\"stay-in-webview\" value=\"false\"/>\n  <preference name=\"ios-statusbarstyle\" value=\"black-opaque\"/>\n  <preference name=\"detect-data-types\" value=\"true\"/>\n  <preference name=\"exit-on-suspend\" value=\"false\"/>\n  <preference name=\"show-splash-screen-spinner\" value=\"true\"/>\n  <preference name=\"auto-hide-splash-screen\" value=\"true\"/>\n  <preference name=\"disable-cursor\" value=\"false\"/>\n  <preference name=\"android-minSdkVersion\" value=\"7\"/>\n  <preference name=\"android-installLocation\" value=\"auto\"/>\n  <gap:plugin name=\"org.apache.cordova.battery-status\"/>\n  <gap:plugin name=\"org.apache.cordova.camera\"/>\n  <gap:plugin name=\"org.apache.cordova.media-capture\"/>\n  <gap:plugin name=\"org.apache.cordova.console\"/>\n  <gap:plugin name=\"org.apache.cordova.contacts\"/>\n  <gap:plugin name=\"org.apache.cordova.device\"/>\n  <gap:plugin name=\"org.apache.cordova.device-motion\"/>\n  <gap:plugin name=\"org.apache.cordova.device-orientation\"/>\n  <gap:plugin name=\"org.apache.cordova.dialogs\"/>\n  <gap:plugin name=\"org.apache.cordova.file\"/>\n  <gap:plugin name=\"org.apache.cordova.file-transfer\"/>\n  <gap:plugin name=\"org.apache.cordova.geolocation\"/>\n  <gap:plugin name=\"org.apache.cordova.globalization\"/>\n  <gap:plugin name=\"org.apache.cordova.inappbrowser\"/>\n  <gap:plugin name=\"org.apache.cordova.media\"/>\n  <gap:plugin name=\"org.apache.cordova.network-information\"/>\n  <gap:plugin name=\"org.apache.cordova.splashscreen\"/>\n  <gap:plugin name=\"org.apache.cordova.vibration\"/>\n  <icon src=\"icon.png\"/>\n  <icon src=\"www/res/icon/android/icon-36-ldpi.png\" gap:platform=\"android\" gap:qualifier=\"ldpi\"/>\n  <icon src=\"www/res/icon/android/icon-48-mdpi.png\" gap:platform=\"android\" gap:qualifier=\"mdpi\"/>\n  <icon src=\"www/res/icon/android/icon-72-hdpi.png\" gap:platform=\"android\" gap:qualifier=\"hdpi\"/>\n  <icon src=\"www/res/icon/android/icon-96-xhdpi.png\" gap:platform=\"android\" gap:qualifier=\"xhdpi\"/>\n  <icon src=\"www/res/icon/blackberry/icon-80.png\" gap:platform=\"blackberry\"/>\n  <icon src=\"www/res/icon/blackberry/icon-80.png\" gap:platform=\"blackberry\" gap:state=\"hover\"/>\n  <icon src=\"www/res/icon/ios/icon-57.png\" gap:platform=\"ios\" width=\"57\" height=\"57\"/>\n  <icon src=\"www/res/icon/ios/icon-72.png\" gap:platform=\"ios\" width=\"72\" height=\"72\"/>\n  <icon src=\"www/res/icon/ios/icon-57-2x.png\" gap:platform=\"ios\" width=\"114\" height=\"114\"/>\n  <icon src=\"www/res/icon/ios/icon-72-2x.png\" gap:platform=\"ios\" width=\"144\" height=\"144\"/>\n  <icon src=\"www/res/icon/webos/icon-64.png\" gap:platform=\"webos\"/>\n  <icon src=\"www/res/icon/windows-phone/icon-48.png\" gap:platform=\"winphone\"/>\n  <icon src=\"www/res/icon/windows-phone/icon-173-tile.png\" gap:platform=\"winphone\" gap:role=\"background\"/>\n  <gap:splash src=\"www/res/screen/android/screen-ldpi-portrait.png\" gap:platform=\"android\" gap:qualifier=\"port-ldpi\"/>\n  <gap:splash src=\"www/res/screen/android/screen-mdpi-portrait.png\" gap:platform=\"android\" gap:qualifier=\"port-mdpi\"/>\n  <gap:splash src=\"www/res/screen/android/screen-hdpi-portrait.png\" gap:platform=\"android\" gap:qualifier=\"port-hdpi\"/>\n  <gap:splash src=\"www/res/screen/android/screen-xhdpi-portrait.png\" gap:platform=\"android\" gap:qualifier=\"port-xhdpi\"/>\n  <gap:splash src=\"www/res/screen/blackberry/screen-225.png\" gap:platform=\"blackberry\"/>\n  <gap:splash src=\"www/res/screen/ios/screen-iphone-portrait.png\" gap:platform=\"ios\" width=\"320\" height=\"480\"/>\n  <gap:splash src=\"www/res/screen/ios/screen-iphone-portrait-2x.png\" gap:platform=\"ios\" width=\"640\" height=\"960\"/>\n  <gap:splash src=\"www/res/screen/ios/screen-iphone-portrait-568h-2x.png\" gap:platform=\"ios\" width=\"640\" height=\"1136\"/>\n  <gap:splash src=\"www/res/screen/ios/screen-ipad-portrait.png\" gap:platform=\"ios\" width=\"768\" height=\"1024\"/>\n  <gap:splash src=\"www/res/screen/ios/screen-ipad-landscape.png\" gap:platform=\"ios\" width=\"1024\" height=\"768\"/>\n  <gap:splash src=\"www/res/screen/windows-phone/screen-portrait.jpg\" gap:platform=\"winphone\"/>\n  <access origin=\"*\"/>\n</widget>\n<!--\n<widget id=\"de.bergwerkfell\" version=\"1.1.2\" xmlns=\"http://www.w3.org/ns/widgets\" xmlns:cdv=\"http://cordova.apache.org/ns/1.0\">\n  <name>Bergwerk Fell App</name>\n  <description>Informationen rund um das Besucherbergwerk Fell</description>\n  <author href=\"http://www.bergwerk-fell.de\" email=\"info@bergwerk-fell.de\">Team des Bergwerks Fell</author>\n  <content src=\"index.html\"/>\n\n  <icon src=\"www/res/icon/android/logo-144-xxhdpi.png\" />\n  <platform name=\"android\">\n        <icon src=\"www/res/icon/android/logo-36-ldpi.png\" density=\"ldpi\" />\n        <icon src=\"www/res/icon/android/logo-48-mdpi.png\" density=\"mdpi\" />\n        <icon src=\"www/res/icon/android/logo-72-hdpi.png\" density=\"hdpi\" />\n        <icon src=\"www/res/icon/android/logo-144-xxhdpi.png\" density=\"xhdpi\" />\n  </platform>\n</widget>-->",
-			"file": "config.xml",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 5420,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -190,6 +179,7 @@
 	],
 	"file_history":
 	[
+		"/C/Projects/phonegap/GWW-App/config.xml",
 		"/C/Projects/phonegap/GWW/www/html/gww/index.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/betonsteinwerk.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/karte.html",
@@ -316,8 +306,7 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb"
 	],
 	"find":
 	{
@@ -328,6 +317,8 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Projects\\phonegap\\GWW-app,*.xml",
+			"C:\\Users\\roland\\projects\\GWW-App\\,*.xml",
 			"C:\\Users\\roland\\projects\\GWW-App\\www,*.html",
 			"C:\\Users\\roland\\projects\\GWW-App\\www",
 			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views",
@@ -344,6 +335,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"logo-144-xxhdpi.png",
 			"caption=\"",
 			"<li><a data-transition=\"slide\"  href=\"../../index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
 			"<a data-transition=\"slide\" href=\"index.html\" data-icon=\"arrow-l\">Zur&uuml;ck</a>",
@@ -496,39 +488,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "config.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 294.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
