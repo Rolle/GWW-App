@@ -143,6 +143,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 4302,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/sww/index.html",
+			"settings":
+			{
+				"buffer_size": 2127,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -175,7 +191,10 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/phonegap/GWW-App"
+		"/C/Projects/phonegap/GWW-App",
+		"/C/Projects/phonegap/GWW-App/www",
+		"/C/Projects/phonegap/GWW-App/www/html",
+		"/C/Projects/phonegap/GWW-App/www/html/sww"
 	],
 	"file_history":
 	[
@@ -488,8 +507,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1440,
+								1440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/html/sww/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1885,
+								1885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
