@@ -253,6 +253,7 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\img\loader.gif \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\logo_bergwerk.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\unchecked.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\index.js \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\js\iscroll-zoom.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\iscroll.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery-1.11.2.min.js \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\js\jquery.mobile-1.4.5.min.js \

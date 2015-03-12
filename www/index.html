@@ -6,8 +6,8 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=yes,initial-scale=1, maximum-scale=5, minimum-scale=0.25"/>
-        <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+        <!--<meta name="viewport" content="user-scalable=yes,initial-scale=1, maximum-scale=5, minimum-scale=0.25"/>-->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />>
         
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
         <link rel="stylesheet" type="text/css" href="css/themes/BW_Theme.css" />
@@ -20,11 +20,19 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
         <script type="text/javascript" src="js/iscroll.js"></script>
+        <script type="text/javascript" src="js/iscroll-zoom.js"></script>
         <script type="text/javascript">
             var myScroll;
             function loaded() {
-                myScroll = new IScroll('#popupKarte');
+                    myScroll = new IScroll('#karte', {
+                    zoom: true,
+                    scrollX: true,
+                    scrollY: true,
+                    mouseWheel: true,
+                    wheelAction: 'zoom'
+                });
             }
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
         </script>
         
         <title>Besucherbergwerk Fell</title>
