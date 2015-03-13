@@ -248,6 +248,7 @@ C:\Projects\phonegap\GWW\platforms\android\assets\www\img\checked.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icons.png \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\icons.svg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte.jpg \
+C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte_backup.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\karte_old.jpg \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\loader.gif \
 C:\Projects\phonegap\GWW\platforms\android\assets\www\img\logo_bergwerk.jpg \
