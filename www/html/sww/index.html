@@ -31,7 +31,13 @@
     <script>
         $(document).on("pagecreate",function(){
             //alert("pagecreate event fired!")
-            $('.swipebox').swipebox();
+            //$('.swipebox').swipebox();
+             $(".photopopup").on({
+                    popupbeforeposition: function() {
+                        var maxHeight = $(window).height() - 60 + "px";
+                        $(".photopopup img").css("max-height",maxHeight);
+                    }
+                });
         });
     </script>
 
