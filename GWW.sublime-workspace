@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"maxHeight"
+			],
+			[
 				"vol",
 				"vogelsberg"
 			],
@@ -147,7 +151,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 4867,
+				"buffer_size": 4904,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,7 +159,15 @@
 			"file": "www/html/sww/index.html",
 			"settings":
 			{
-				"buffer_size": 2180,
+				"buffer_size": 2223,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/html/sww/karte.html",
+			"settings":
+			{
+				"buffer_size": 2851,
 				"line_ending": "Windows"
 			}
 		}
@@ -193,7 +205,8 @@
 	[
 		"/C/Projects/phonegap/GWW",
 		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/js"
+		"/C/Projects/phonegap/GWW/www/html",
+		"/C/Projects/phonegap/GWW/www/html/sww"
 	],
 	"file_history":
 	[
@@ -515,15 +528,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4867,
+						"buffer_size": 4904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2011,
-								2011
+								1885,
+								1885
 							]
 						],
 						"settings":
@@ -533,7 +546,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -545,15 +558,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2180,
+						"buffer_size": 2223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								718,
+								718
 							]
 						],
 						"settings":
@@ -567,6 +580,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/html/sww/karte.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1494,
+								1494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

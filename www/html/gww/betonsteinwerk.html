@@ -4,7 +4,7 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
               <li><a data-rel="back" data-transition="slide" href="index.html" data-icon="arrow-l">Zur&uuml;ck</a></li>
-              <li><a href="../../img/karte.jpg" data-icon="location" rel="karte" class="swipebox">Karte</a></li>
+              <li><a href="#popupKarte" data-rel="popup" data-position-to="window" data-icon="location">Karte</a></li>
             </ul>
           </div>                
     </div>
@@ -45,11 +45,34 @@
 
         </div>
     </div>
+
+    <div data-role="popup" id="popupKarte" data-corners="false" class="photopopup">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <div id="betonsteinwerk_karte"><img class="popphoto" src="../../img/karte.jpg" style="max-height:512px"/></div>
+    </div>
+    
     <script>
         $(document).on("pagecreate",function(){
             //alert("pagecreate event fired!")
             $('.swipebox').swipebox();
         });
+         $(".photopopup").on({
+                popupbeforeposition: function() {
+                    var maxHeight = $(window).height() - 60 + "px";
+                    $(".photopopup img").css("max-height",maxHeight);
+                }
+            });        
+    </script>
+
+        <script>
+            new IScroll('#betonsteinwerk_karte', {
+                zoom: true,
+                scrollX: true,
+                scrollY: true,
+                mouseWheel: true,
+                wheelAction: 'zoom'
+            });
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
     </script>
     
     <!--div data-role="footer">

@@ -21,10 +21,11 @@
         <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
         <script type="text/javascript" src="js/iscroll.js"></script>
         <script type="text/javascript" src="js/iscroll-zoom.js"></script>
-        <script type="text/javascript">
+        <!--script type="text/javascript">
             var myScroll;
-            function loaded() {
-                    myScroll = new IScroll('#karte', {
+            function loaded(domid) {
+                    alert("#"+domid)
+                    myScroll = new IScroll('#'+domid, {
                     zoom: true,
                     scrollX: true,
                     scrollY: true,
@@ -33,7 +34,7 @@
                 });
             }
             document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-        </script>
+        </script-->
         
         <title>Besucherbergwerk Fell</title>
     </head>

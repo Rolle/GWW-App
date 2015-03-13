@@ -4,7 +4,7 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li><a data-rel="back" data-transition="slide" href="index.html" data-icon="arrow-l">Zur&uuml;ck</a></li>
-                <li><a href="../../img/karte.jpg" data-icon="location" rel="karte" class="swipebox">Karte</a></li>
+                <li><a href="#popupKarte" data-rel="popup" data-position-to="window" data-icon="location">Karte</a></li>
             </ul>
         </div>                
     </div>
@@ -12,62 +12,72 @@
     <div role="main" class="ui-content">
         <h3 class="ui-bar ui-bar-a ui-corner-all">Karten / H&ouml;henprofil</h3>
         <div class="ui-body ui-body-a ui-corner-all">
-            <!--<ul data-role="listview" data-inset="true">
+            <ul data-role="listview" data-inset="true">
                 <li>
-                    <a href="img/karte_sww.jpg" class="swipebox" title="Karte des S/W-Steigs">
-                        <img src="img/karte_sww.jpg" alt="Spalth&uuml;tte" class="ui-li-thumb">
+                    <a href="#popupKarte" data-rel="popup" data-position-to="window" data-transition="fade" title="Karte des S/W-Steigs">
+                        <img class="popphoto" src="img/karte_sww.jpg" alt="Spalth&uuml;tte" class="ui-li-thumb">
                         <p>Karte des S/W-Steigs</p>
                     </a>
                 </li>
                 <li>
-                    <a href="img/hoehenprofil.jpg" class="swipebox" title="H&ouml;henprofil des S/W-Steig">
-                        <img src="img/hoehenprofil.jpg" alt="Spalth&uuml;tte" class="ui-li-thumb">
+                    <a href="#popupHoehenprofil" data-rel="popup" data-position-to="window" data-transition="fade" title="H&ouml;henprofil des S/W-Steig">
+                        <img class="popphoto" src="img/hoehenprofil.jpg" alt="Spalth&uuml;tte" class="ui-li-thumb">
                         <p>H&ouml;henprofil des S/W-Steig</p>
                     </a>
                 </li>
 
-            </ul> -->
-            <div class="ui-grid-a">
-                <div class="ui-block-a">
-                    <div class="ui-bar ui-bar-a">
-                        <a href="#popupKarte" data-rel="popup" data-position-to="window" data-transition="fade">
-                            <img class="popphoto" src="img/karte_sww.jpg" style="width=40%"/>
-                        </a>
-                    </div>
-                </div>
-                <div class="ui-block-b">
-                    <div class="ui-bar ui-bar-a">            
-                        <a href="#popupHoehenprofil" data-rel="popup" data-position-to="window" data-transition="fade">
-                            <img class="popphoto" src="img/hoehenprofil.jpg" style="width=40%"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div data-role="popup" id="popupKarte" data-corners="false">
+            </ul>
+
+            <div data-role="popup" id="popupKarte" data-corners="false" class="photopopup">
                 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-                <img class="popphoto" src="img/karte_sww.jpg" style="max-height:512px"/>
+                <div id="zoomable1"><img class="popphoto" src="img/karte_sww.jpg" style="max-height:512px"/></div>
             </div>
-            <div data-role="popup" id="popupHoehenprofil" data-corners="false">
+            <div data-role="popup" id="popupHoehenprofil" data-corners="false"  class="photopopup">
                 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-                <img class="popphoto" src="img/hoehenprofil.jpg" style="max-height:512px"/>
+                <div id="karte_karte"><img class="popphoto" src="img/hoehenprofil.jpg" style="max-height:512px"/></div>
             </div>
 
         </div>
-        <script>
-
-            $(document).on("pagecreate",function(){
-                //alert("pagecreate event fired!")
-                //$('.swipebox').swipebox();
-                $(".photopopup").on({
-                    popupbeforeposition: function() {
-                        var maxHeight = $(window).height() - 60 + "px";
-                        $(".photopopup img").css("max-height",maxHeight);
-                    }
-                });
-            });
-        </script>
     </div>
 
+    <div data-role="popup" id="popupKarte" data-corners="false" class="photopopup">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <div id="zoomable"><img class="popphoto" src="../../img/karte.jpg" style="max-height:512px"/></div>
+    </div>
+    
+    <script>
+        $(document).on("pagecreate",function(){
+            //alert("pagecreate event fired!")
+            //$('.swipebox').swipebox();
+            $(".photopopup").on({
+                popupbeforeposition: function() {
+                    var maxHeight = $(window).height() - 60 + "px";
+                    $(".photopopup img").css("max-height",maxHeight);
+                }
+            });                
+        });
+
+    </script>
+    <script>
+            new IScroll('#karte_karte', {
+                zoom: true,
+                scrollX: true,
+                scrollY: true,
+                mouseWheel: true,
+                wheelAction: 'zoom'
+            });
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    </script>
+    <script>
+            new IScroll('#zoomable', {
+                zoom: true,
+                scrollX: true,
+                scrollY: true,
+                mouseWheel: true,
+                wheelAction: 'zoom'
+            });
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    </script>
 
     <!--div data-role="footer">
         <h4>Page Footer</h4>
