@@ -48,28 +48,16 @@
                 //alert("pagecreate event fired!")
                 $('.swipebox').swipebox();
             });
-         $(".photopopup").on({
+            $(".photopopup").on({
                 popupbeforeposition: function() {
                     var maxHeight = $(window).height() - 60 + "px";
                     $(".photopopup img").css("max-height",maxHeight);
                 }
             });                
         </script>
-        <script>
-            new IScroll('#start_karte', {
-                zoom: true,
-                scrollX: true,
-                scrollY: true,
-                mouseWheel: true,
-                wheelAction: 'zoom'
-            });
-            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-    </script>
     </div>
-</div>
-
 
     <!--div data-role="footer">
         <h4>Page Footer</h4>
     </div-->
-</div>Unter 
+</div>

@@ -38,20 +38,12 @@
     </div>
 
     <script>
-                 $(".photopopup").on({
-                    popupbeforeposition: function() {
-                        var maxHeight = $(window).height() - 60 + "px";
-                        $(".photopopup img").css("max-height",maxHeight);
-                    }
-                });
-            new IScroll('#kontakt_karte', {
-                zoom: true,
-                scrollX: true,
-                scrollY: true,
-                mouseWheel: true,
-                wheelAction: 'zoom'
-            });
-            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+         $(".photopopup").on({
+            popupbeforeposition: function() {
+                var maxHeight = $(window).height() - 60 + "px";
+                $(".photopopup img").css("max-height",maxHeight);
+            }
+        });
     </script>
     <!--div data-role="footer">
         <h4>Page Footer</h4>

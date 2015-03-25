@@ -25,9 +25,8 @@
 
     <div data-role="popup" id="popupKarte" data-corners="false" class="photopopup">
       <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-      <div id="sww_index_karte"><img class="popphoto" src="../../img/karte.jpg" style="max-height:512px"/></div>
+      <div id="sww_index_karte" class="panzoom"><img class="popphoto" src="../../img/karte.jpg" style="max-height:512px"/></div>
     </div>
-
 
     <script>
         $(document).on("pagecreate",function(){
@@ -39,25 +38,13 @@
                         $(".photopopup img").css("max-height",maxHeight);
                     }
                 });
-        });
-                 $(".photopopup").on({
-                popupbeforeposition: function() {
-                    var maxHeight = $(window).height() - 60 + "px";
-                    $(".photopopup img").css("max-height",maxHeight);
-                }
-            });    
+              });
+   
     </script>
-    <script>
-            new IScroll('#sww_index_karte', {
-                zoom: true,
-                scrollX: true,
-                scrollY: true,
-                mouseWheel: true,
-                wheelAction: 'zoom'
-            });
-            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-    </script>
-    <!--script>loaded("zoomable");</script-->
+
+        <script type="text/javascript">
+            $(".popphoto").panzoom();
+        </script>
 
     <!--div data-role="footer">
         <h4>Page Footer</h4>
