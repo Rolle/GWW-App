@@ -152,11 +152,11 @@
 	"buffers":
 	[
 		{
-			"file": "www/html/sww/index.html",
+			"file": "platforms/android/AndroidManifest.xml",
 			"settings":
 			{
-				"buffer_size": 2212,
-				"line_ending": "Windows"
+				"buffer_size": 1254,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -197,17 +197,11 @@
 	"expanded_folders":
 	[
 		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/www",
-		"/C/Projects/phonegap/GWW/www/html",
-		"/C/Projects/phonegap/GWW/www/html/sww"
+		"/C/Projects/phonegap/GWW/platforms",
+		"/C/Projects/phonegap/GWW/platforms/android"
 	],
 	"file_history":
 	[
-		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/anfahrt.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
-		"/C/Projects/phonegap/GWW/www/index.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
-		"/C/Projects/phonegap/GWW/www/html/sww/index.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
@@ -233,8 +227,13 @@
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg1.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/vogelsberg2.html",
 		"/C/Projects/phonegap/GWW/www/html/gww/walli.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/allgemeines.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/einkehr.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/karte.html",
 		"/C/Projects/phonegap/GWW/www/html/sww/start.html",
+		"/C/Projects/phonegap/GWW/www/html/sww/index.html",
+		"/C/Projects/phonegap/GWW/platforms/android/assets/www/html/bw/anfahrt.html",
+		"/C/Projects/phonegap/GWW/www/index.html",
 		"/C/Projects/phonegap/GWW/www/html/veranstaltungen.html",
 		"/C/Projects/phonegap/GWW-App/config.xml",
 		"/C/Users/roland/projects/GWW-App/www/html/gww/josef.html",
@@ -362,6 +361,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"debugHi,",
 			"IScroll",
 			"<li><a href=\"../../img/karte.jpg\" data-icon=\"location\" rel=\"karte\" class=\"swipebox\">Karte</a></li>",
 			"logo-144-xxhdpi.png",
@@ -523,25 +523,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "www/html/sww/index.html",
-					"semi_transient": true,
+					"file": "platforms/android/AndroidManifest.xml",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2212,
+						"buffer_size": 1254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2051,
-								2051
+								101,
+								103
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,

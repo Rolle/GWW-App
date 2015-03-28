@@ -45,7 +45,17 @@
                     <input id="numbertag" name="numbertag" type="text" value="" placeholder="Station">                        
                     <button class="ui-btn ui-icon-navigation ui-btn-icon-left ui-corner-all" type="submit">Anzeigen</button>
                 </form>
+                <a class="ui-btn ui-icon-info ui-btn-icon-left ui-corner-all" data-rel="popup" data-position-to="window" href="#popupDialogHilfe">Hilfe</a>
+            </div>
 
+            <div data-role="popup" id="popupDialogHilfe" data-dismissible="false" style="max-width:400px;">
+                <div data-role="header">
+                    <h1>Hilfe</h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <h3 class="ui-title">In dem Eingabefeld können die Markierungen (rote Zahlen) auf der Karte direkt eingegeben werden. Dadurch gelangt man zu der entsprechenden Seite mit den Informationen und Bildern zu dieser Station. </h3>
+                    <a href="#" class="ui-btn ui-corner-all ui-btn-inline" data-rel="back">Ok</a>
+                </div>
             </div>
 
             <div data-role="popup" id="popupDialog" data-dismissible="false" style="max-width:400px;">
@@ -71,10 +81,22 @@
         <script>
             $(function() {
                 numbers_to_pages = {};
-                numbers_to_pages[1] = "html/gww/schuerzig.html";
-                numbers_to_pages[2] = "html/gww/betonsteinwerk.html";
-                numbers_to_pages[3] = "html/gww/veranstaltungen.html";
 
+                numbers_to_pages[1] = "html/gww/stromverteiler.html";
+                numbers_to_pages[2] = "html/gww/josef.html";
+                numbers_to_pages[3] = "html/gww/kobenbach.html";
+                numbers_to_pages[4] = "html/gww/hofgrube.html";
+                numbers_to_pages[5] = "html/gww/vogelsberg.html";
+                numbers_to_pages[6] = "html/gww/vogelsberg2.html";                
+                numbers_to_pages[7] = "html/gww/vogelsberg1.html";
+                numbers_to_pages[8] = "html/gww/barbara.html";
+                numbers_to_pages[9] = "html/gww/hoffnung.html";
+                numbers_to_pages[10] = "html/gww/walli.html";
+                numbers_to_pages[11] = "html/gww/eichbaum.html";
+                numbers_to_pages[12] = "html/gww/schuerzig.html";
+                numbers_to_pages[13] = "html/gww/margarethen.html";
+                numbers_to_pages[14] = "html/gww/untere_schuerzig.html";
+                numbers_to_pages[15] = "html/gww/betonsteinwerk.html";
 
                 $('#goto').on('submit',function(e){
                     e.preventDefault();

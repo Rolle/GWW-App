@@ -64,7 +64,7 @@
   <access origin="*"/>
 </widget>-->
 
-<widget id="de.bergwerkfell" version="1.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="de.bergwerkfell" version="1.1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Bergwerk Fell App</name>
   <description>Informationen rund um das Besucherbergwerk Fell</description>
   <author href="http://www.bergwerk-fell.de" email="info@bergwerk-fell.de">Team des Bergwerks Fell</author>
