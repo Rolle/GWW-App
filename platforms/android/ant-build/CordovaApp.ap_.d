@@ -161,6 +161,7 @@ C:\java\GWW-App\platforms\android\assets\www\css\themes\images\icons-png\user-wh
 C:\java\GWW-App\platforms\android\assets\www\css\themes\images\icons-png\video-black.png \
 C:\java\GWW-App\platforms\android\assets\www\css\themes\images\icons-png\video-white.png \
 C:\java\GWW-App\platforms\android\assets\www\html\bw \
+C:\java\GWW-App\platforms\android\assets\www\html\geo \
 C:\java\GWW-App\platforms\android\assets\www\html\gww \
 C:\java\GWW-App\platforms\android\assets\www\html\sww \
 C:\java\GWW-App\platforms\android\assets\www\html\veranstaltungen.html \
@@ -185,6 +186,10 @@ C:\java\GWW-App\platforms\android\assets\www\html\bw\img\spielplatz.jpg \
 C:\java\GWW-App\platforms\android\assets\www\html\bw\img\wanderung.jpg \
 C:\java\GWW-App\platforms\android\assets\www\html\bw\img\weinbau.jpg \
 C:\java\GWW-App\platforms\android\assets\www\html\bw\img\weinglas.jpg \
+C:\java\GWW-App\platforms\android\assets\www\html\geo\barbara.html \
+C:\java\GWW-App\platforms\android\assets\www\html\geo\betonsteinwerk.html \
+C:\java\GWW-App\platforms\android\assets\www\html\geo\index.html \
+C:\java\GWW-App\platforms\android\assets\www\html\geo\schieferbergwerk.html \
 C:\java\GWW-App\platforms\android\assets\www\html\gww\aufseherhaus.html \
 C:\java\GWW-App\platforms\android\assets\www\html\gww\barbara.html \
 C:\java\GWW-App\platforms\android\assets\www\html\gww\betonsteinwerk.html \

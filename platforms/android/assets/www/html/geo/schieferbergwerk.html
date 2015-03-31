@@ -1,0 +1,44 @@
+<div data-role="page" id="bw_bw">
+    <div data-role="header"> <!-- data-add-back-btn="true" data-back-btn-text="Zur&uuml;ck">-->
+        <h1>Earthcache Schieferbergwerk GC2T692</h1>
+          <div data-role="navbar" data-iconpos="top">
+            <ul>
+              <li><a  data-rel="back" data-transition="slide" href="../../index.html" data-icon="arrow-l">Zur&uuml;ck</a></li>
+              <li><a href="#popupKarte" data-rel="popup" data-position-to="window" data-icon="location">Karte</a></li>
+            </ul>
+          </div>
+    </div>
+
+ <div role="main" class="ui-content">
+    	<h3 class="ui-bar ui-bar-a ui-corner-all">Beschreibung von geochaching.com</h3>
+    	<div class="ui-body ui-body-a ui-corner-all">
+    	<b>A cache by Team Huskys	Hidden : 04/14/2011</b><p>
+    	<b>N 49° 45.349 E 006° 47.952 </b><p>
+			UTM: 32U E 341484 N 5513806<p>
+			Mache dich auf den Weg zum Eingang des Bergwerkes bei: N 49° 45.349 E 006° 47.952<p>
+Scheinbar sind die Umbauarbeiten endlich beendet. Leider sind die Tafeln, die zur Beantwortung der Fragen notwendig sind, nur bei geöffnetem Bergwerk einsehbar. Schade! Ihr müsst leider die Öffnungszeiten beachten! Um diesen Cache zu loggen muss das Bergwerk nicht besichtigt werden, aber es ist sehr empfehlenswert.   	
+       	<p>
+       	 <a href="http://www.geocaching.com/geocache/GC2T692_feller-schieferbergwerk">Link zum Geocache</a>
+       	</div>
+
+    <div data-role="popup" id="popupKarte" data-corners="false" class="photopopup">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <div id="zoomable"><img class="popphoto" src="../../img/karte.jpg" style="max-height:512px"/></div>
+    </div>
+    
+      <script>
+          $(document).on("pagecreate",function(){
+              //alert("pagecreate event fired!")
+              $('.swipebox').swipebox();
+             $(".photopopup").on({
+                    popupbeforeposition: function() {
+                        var maxHeight = $(window).height() - 60 + "px";
+                        $(".photopopup img").css("max-height",maxHeight);
+                    }
+                });              
+          });
+      </script>     
+    <!--div data-role="footer" style="overflow:hidden;">
+
+    </div-->
+</div>

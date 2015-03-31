@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"vogels",
+				"vogelsberg2"
+			],
+			[
 				"zoom",
 				"zoomable1"
 			],
@@ -30,10 +34,6 @@
 			[
 				"voge",
 				"vogelsberg2"
-			],
-			[
-				"vogels",
-				"vogelsberg"
 			],
 			[
 				"numbert",
@@ -152,11 +152,29 @@
 	"buffers":
 	[
 		{
-			"file": "platforms/android/AndroidManifest.xml",
+			"file": "platforms/android/ant-build/AndroidManifest.cordova.xml",
 			"settings":
 			{
-				"buffer_size": 1254,
+				"buffer_size": 0,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 784 files for \"1.1.2\"\n\nC:\\java\\GWW-App\\config.xml:\n   65  </widget>-->\n   66  \n   67: <widget id=\"de.bergwerkfell\" version=\"1.1.2\" xmlns=\"http://www.w3.org/ns/widgets\" xmlns:cdv=\"http://cordova.apache.org/ns/1.0\">\n   68    <name>Bergwerk Fell App</name>\n   69    <description>Informationen rund um das Besucherbergwerk Fell</description>\n\nC:\\java\\GWW-App\\platforms\\android\\AndroidManifest.xml:\n    1  <?xml version='1.0' encoding='utf-8'?>\n    2: <manifest android:hardwareAccelerated=\"true\" android:versionCode=\"10102\" android:versionName=\"1.1.2\" package=\"de.bergwerkfell\" xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    3      <supports-screens android:anyDensity=\"true\" android:largeScreens=\"true\" android:normalScreens=\"true\" android:resizeable=\"true\" android:smallScreens=\"true\" android:xlargeScreens=\"true\" />\n    4      <uses-permission android:name=\"android.permission.INTERNET\" />\n\nC:\\java\\GWW-App\\platforms\\android\\ant-build\\AndroidManifest.cordova.xml:\n    1  <?xml version='1.0' encoding='utf-8'?>\n    2: <manifest android:hardwareAccelerated=\"true\" android:versionCode=\"10102\" android:versionName=\"1.1.2\" package=\"de.bergwerkfell\" xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    3      <supports-screens android:anyDensity=\"true\" android:largeScreens=\"true\" android:normalScreens=\"true\" android:resizeable=\"true\" android:smallScreens=\"true\" android:xlargeScreens=\"true\" />\n    4      <uses-permission android:name=\"android.permission.INTERNET\" />\n\nC:\\java\\GWW-App\\platforms\\android\\res\\xml\\config.xml:\n    1  <?xml version='1.0' encoding='utf-8'?>\n    2: <widget id=\"de.bergwerkfell\" version=\"1.1.2\" xmlns=\"http://www.w3.org/ns/widgets\" xmlns:cdv=\"http://cordova.apache.org/ns/1.0\">\n    3      <preference name=\"loglevel\" value=\"DEBUG\" />\n    4      <icon density=\"ldpi\" src=\"www/res/icon/android/icon_36_ldpi.png\" />\n\nC:\\java\\GWW-App\\release-build.bat:\n    4  cd ant-build\n    5  jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore GWW.keystore CordovaApp-release-unsigned.apk GWW\n    6: set PATH=%PATH%;C:\\java\\android-sdk\\build-tools\\21.1.2\n    7  zipalign -v 4 CordovaApp-release-unsigned.apk GWW.apk\n\n5 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 2199,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 5420,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -196,12 +214,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/phonegap/GWW",
-		"/C/Projects/phonegap/GWW/platforms",
-		"/C/Projects/phonegap/GWW/platforms/android"
+		"/C/java/GWW-App",
+		"/C/java/GWW-App/platforms",
+		"/C/java/GWW-App/www/html/gww"
 	],
 	"file_history":
 	[
+		"/C/java/GWW-App/platforms/android/ant-build/AndroidManifest.cordova.xml",
+		"/C/java/GWW-App/www/index.html",
+		"/C/java/GWW-App/platforms/android/AndroidManifest.xml",
+		"/C/java/GWW-App/release-build.bat",
+		"/C/java/GWW-App/.gitignore",
+		"/C/java/GWW-App/www/html/veranstaltungen.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/anfahrt.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/angebote.html",
 		"/C/Projects/phonegap/GWW/www/html/bw/bistro.html",
@@ -323,23 +347,19 @@
 		"/home/roland/projects/rails-schnitzeljagd/config/environments/development.rb",
 		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141115194634_create_registrations.rb",
 		"/home/roland/projects/rails-schnitzeljagd/app/models/registration.rb",
-		"/home/roland/projects/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
-		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141116124811_add_paid_to_registrations.rb",
-		"/home/roland/projects/rails-schnitzeljagd/config/application.rb",
-		"/home/roland/projects/rails-schnitzeljagd/config/database.yml",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css"
+		"/home/roland/projects/rails-schnitzeljagd/app/controllers/registrations_controller.rb"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\java\\GWW-App",
+			"C:\\Projects\\phonegap\\GWW\\",
 			"C:\\Projects\\phonegap\\GWW\\,*.html",
 			"C:\\Projects\\phonegap\\GWW\\www,*.html",
 			"C:\\Projects\\phonegap\\GWW-app,*.html",
@@ -361,6 +381,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1.1.2",
+			"10102",
 			"debugHi,",
 			"IScroll",
 			"<li><a href=\"../../img/karte.jpg\" data-icon=\"location\" rel=\"karte\" class=\"swipebox\">Karte</a></li>",
@@ -518,24 +540,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "platforms/android/AndroidManifest.xml",
+					"file": "platforms/android/ant-build/AndroidManifest.cordova.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1254,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								103
+								0,
+								0
 							]
 						],
 						"settings":
@@ -546,6 +568,98 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2199,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										134,
+										139
+									],
+									[
+										551,
+										556
+									],
+									[
+										1137,
+										1142
+									],
+									[
+										1648,
+										1653
+									],
+									[
+										2106,
+										2111
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4669,
+								4669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 683.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -639,7 +753,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 331.0,
+	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
